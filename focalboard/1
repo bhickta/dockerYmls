@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  focalboard:
+    image: mattermost/focalboard
+    container_name: focalboard
+    restart: unless-stopped
+    volumes:
+      - data:/data
+    ports:
+      - 102:8000
+
+volumes:
+  data:

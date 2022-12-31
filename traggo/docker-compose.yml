@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  traggo:
+    image: traggo/server:latest
+    ports:
+      - 147:3030
+    environment:
+      TRAGGO_DEFAULT_USER_NAME: "bhickta"
+      TRAGGO_DEFAULT_USER_PASS: "Impossible.traggo1@"
+    volumes:
+      - data:/opt/traggo/data
+volumes:
+  data:

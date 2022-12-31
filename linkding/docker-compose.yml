@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  linkding:
+    container_name: linkding 
+    image: sissbruecker/linkding:latest
+    ports:
+      - 3002:9090
+    volumes:
+      - "data:/etc/linkding/data"
+    restart: unless-stopped
+volumes:
+  data:
+# to create user
+  # sudo docker exec -it linkding python manage.py createsuperuser --username=bhickta --email=nishantbhickta+linkding@gmail.com
+

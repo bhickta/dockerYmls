@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://hpgeneralstudies.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://hpgeneralstudies.com/wp-content/themes/iconic-one/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script>
+(function(d){
+var js, id = 'powr-js', ref = d.getElementsByTagName('script')[0];
+if (d.getElementById(id)) {return;}
+js = d.createElement('script'); js.id = id; js.async = true;
+js.src = '//www.powr.io/powr.js?external-type=wordpress';
+js.setAttribute('powr-token','NxPchQmfuU1583922787');
+ref.parentNode.insertBefore(js, ref);
+}(document));
+</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Himachal Pradesh General Studies - Education Revolution</title>
+<meta name="description" content="Education Revolution" />
+<link rel="canonical" href="https://hpgeneralstudies.com/" />
+<link rel="next" href="https://hpgeneralstudies.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Himachal Pradesh General Studies" />
+<meta property="og:description" content="Education Revolution" />
+<meta property="og:url" content="https://hpgeneralstudies.com/" />
+<meta property="og:site_name" content="Himachal Pradesh General Studies" />
+<meta name="twitter:card" content="summary" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://hpgeneralstudies.com/#website","url":"https://hpgeneralstudies.com/","name":"Himachal Pradesh General Studies","description":"Education Revolution","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://hpgeneralstudies.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://hpgeneralstudies.com/","url":"https://hpgeneralstudies.com/","name":"Himachal Pradesh General Studies - Education Revolution","isPartOf":{"@id":"https://hpgeneralstudies.com/#website"},"description":"Education Revolution","breadcrumb":{"@id":"https://hpgeneralstudies.com/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://hpgeneralstudies.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+<meta name="google-site-verification" content="hJch8p59EwcFkam5FPzo2yCWuQ2ac8N2pVx1EKnAkBE" />
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='//www.powr.io' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="Himachal Pradesh General Studies » Feed" href="https://hpgeneralstudies.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Himachal Pradesh General Studies » Comments Feed" href="https://hpgeneralstudies.com/comments/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v7.7.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script src="//www.googletagmanager.com/gtag/js?id=UA-86846866-1"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+var em_version = '7.7.0';
+var em_track_user = true;
+var em_no_track_reason = '';
+var disableStrs = [
+'ga-disable-UA-86846866-1',
+];
+/* Function to detect opted out users */
+function __gtagTrackerIsOptedOut() {
+for ( var index = 0; index < disableStrs.length; index++ ) {
+if ( document.cookie.indexOf( disableStrs[ index ] + '=true' ) > -1 ) {
+return true;
+}
+}
+return false;
+}
+/* Disable tracking if the opt-out cookie exists. */
+if ( __gtagTrackerIsOptedOut() ) {
+for ( var index = 0; index < disableStrs.length; index++ ) {
+window[ disableStrs[ index ] ] = true;
+}
+}
+/* Opt-out function */
+function __gtagTrackerOptout() {
+for ( var index = 0; index < disableStrs.length; index++ ) {
+document.cookie = disableStrs[ index ] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[ disableStrs[ index ] ] = true;
+}
+}
+if ( 'undefined' === typeof gaOptout ) {
+function gaOptout() {
+__gtagTrackerOptout();
+}
+}
+window.dataLayer = window.dataLayer || [];
+window.ExactMetricsDualTracker = {
+helpers: {},
+trackers: {},
+};
+if ( em_track_user ) {
+function __gtagDataLayer() {
+dataLayer.push( arguments );
+}
+function __gtagTracker( type, name, parameters ) {
+if (!parameters) {
+parameters = {};
+}
+if (parameters.send_to) {
+__gtagDataLayer.apply( null, arguments );
+return;
+}
+if ( type === 'event' ) {
+parameters.send_to = exactmetrics_frontend.ua;
+__gtagDataLayer( type, name, parameters );
+} else {
+__gtagDataLayer.apply( null, arguments );
+}
+}
+__gtagTracker( 'js', new Date() );
+__gtagTracker( 'set', {
+'developer_id.dNDMyYj' : true,
+} );
+__gtagTracker( 'config', 'UA-86846866-1', {"forceSSL":"true"} );
+window.gtag = __gtagTracker;											(function () {
+/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+/* ga and __gaTracker compatibility shim. */
+var noopfn = function () {
+return null;
+};
+var newtracker = function () {
+return new Tracker();
+};
+var Tracker = function () {
+return null;
+};
+var p = Tracker.prototype;
+p.get = noopfn;
+p.set = noopfn;
+p.send = function (){
+var args = Array.prototype.slice.call(arguments);
+args.unshift( 'send' );
+__gaTracker.apply(null, args);
+};
+var __gaTracker = function () {
+var len = arguments.length;
+if ( len === 0 ) {
+return;
+}
+var f = arguments[len - 1];
+if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+if ( 'send' === arguments[0] ) {
+var hitConverted, hitObject = false, action;
+if ( 'event' === arguments[1] ) {
+if ( 'undefined' !== typeof arguments[3] ) {
+hitObject = {
+'eventAction': arguments[3],
+'eventCategory': arguments[2],
+'eventLabel': arguments[4],
+'value': arguments[5] ? arguments[5] : 1,
+}
+}
+}
+if ( 'pageview' === arguments[1] ) {
+if ( 'undefined' !== typeof arguments[2] ) {
+hitObject = {
+'eventAction': 'page_view',
+'page_path' : arguments[2],
+}
+}
+}
+if ( typeof arguments[2] === 'object' ) {
+hitObject = arguments[2];
+}
+if ( typeof arguments[5] === 'object' ) {
+Object.assign( hitObject, arguments[5] );
+}
+if ( 'undefined' !== typeof arguments[1].hitType ) {
+hitObject = arguments[1];
+if ( 'pageview' === hitObject.hitType ) {
+hitObject.eventAction = 'page_view';
+}
+}
+if ( hitObject ) {
+action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+hitConverted = mapArgs( hitObject );
+__gtagTracker( 'event', action, hitConverted );
+}
+}
+return;
+}
+function mapArgs( args ) {
+var arg, hit = {};
+var gaMap = {
+'eventCategory': 'event_category',
+'eventAction': 'event_action',
+'eventLabel': 'event_label',
+'eventValue': 'event_value',
+'nonInteraction': 'non_interaction',
+'timingCategory': 'event_category',
+'timingVar': 'name',
+'timingValue': 'value',
+'timingLabel': 'event_label',
+'page' : 'page_path',
+'location' : 'page_location',
+'title' : 'page_title',
+};
+for ( arg in args ) {
+if ( ! ( ! args.hasOwnProperty(arg) || ! gaMap.hasOwnProperty(arg) ) ) {
+hit[gaMap[arg]] = args[arg];
+} else {
+hit[arg] = args[arg];
+}
+}
+return hit;
+}
+try {
+f.hitCallback();
+} catch ( ex ) {
+}
+};
+__gaTracker.create = newtracker;
+__gaTracker.getByName = newtracker;
+__gaTracker.getAll = function () {
+return [];
+};
+__gaTracker.remove = noopfn;
+__gaTracker.loaded = true;
+window['__gaTracker'] = __gaTracker;
+})();
+} else {
+console.log( "" );
+( function () {
+function __gtagTracker() {
+return null;
+}
+window['__gtagTracker'] = __gtagTracker;
+window['gtag'] = __gtagTracker;
+} )();
+}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+<!-- <link rel='stylesheet' id='formidable-css'  href='https://hpgeneralstudies.com/wp-content/plugins/formidable/css/formidableforms.css?ver=89638' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-components-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/components/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-editor-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/block-editor/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-nux-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/nux/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-reusable-blocks-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-editor-css'  href='https://hpgeneralstudies.com/wp-includes/css/dist/editor/style.min.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powrful_pack-style-css-css'  href='https://hpgeneralstudies.com/wp-content/plugins/powr-pack/dist/blocks.style.build.css?ver=5.8.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='https://hpgeneralstudies.com/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=6.0.3' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//hpgeneralstudies.com/wp-content/cache/wpfc-minified/jlq8c0sn/dk7xy.css" media="all"/>
+<link rel='stylesheet' id='themonic-fonts-css'  href='https://fonts.googleapis.com/css?family=Ubuntu%3A400%2C700&subset=latin%2Clatin-ext' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='themonic-style-css'  href='https://hpgeneralstudies.com/wp-content/themes/iconic-one/style.css?ver=1.7.9' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='custom-style-css'  href='https://hpgeneralstudies.com/wp-content/themes/iconic-one/custom.css?ver=5.8.6' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//hpgeneralstudies.com/wp-content/cache/wpfc-minified/7c6jpff4/dk7xy.css" media="all"/>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='themonic-ie-css'  href='https://hpgeneralstudies.com/wp-content/themes/iconic-one/css/ie.css?ver=20130305' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='https://hpgeneralstudies.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=7.7.0' id='exactmetrics-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/hpgeneralstudies.com","hash_tracking":"false","ua":"UA-86846866-1","v4_id":""};/* ]]> */
+</script>
+<script type='text/javascript' src='//www.powr.io/powr.js?external-type=wordpress&ver=5.8.6' id='powr-js-js'></script>
+<script type='application/json' id='wpp-json'>
+{"sampling_active":1,"sampling_rate":100,"ajax_url":"https:\/\/hpgeneralstudies.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/hpgeneralstudies.com\/wp-json\/wordpress-popular-posts","ID":0,"token":"2971bf9b0b","lang":0,"debug":0}
+</script>
+<script type='text/javascript' src='https://hpgeneralstudies.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.0.3' id='wpp-js-js'></script>
+<!-- Google Analytics snippet added by Site Kit -->
+<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-86846866-1' id='google_gtagjs-js' async></script>
+<script type='text/javascript' id='google_gtagjs-js-after'>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["hpgeneralstudies.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-86846866-1", {"anonymize_ip":true});
+</script>
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://hpgeneralstudies.com/wp-json/" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hpgeneralstudies.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.6" />
+<meta name="generator" content="Site Kit by Google 1.81.0" />            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+<!-- Google AdSense snippet added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense snippet added by Site Kit -->
+<meta name="onesignal" content="wordpress-plugin"/>
+<script>
+window.OneSignal = window.OneSignal || [];
+OneSignal.push( function() {
+OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+OneSignal.setDefaultNotificationUrl("https://hpgeneralstudies.com");
+var oneSignal_options = {};
+window._oneSignalInitOptions = oneSignal_options;
+oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'dedc5757-c7c9-4d84-b181-8745e7dfa11c';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://hpgeneralstudies.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['persistNotification'] = true;
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-left';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'large';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+OneSignal.init(window._oneSignalInitOptions);
+OneSignal.showSlidedownPrompt();      });
+function documentInitOneSignal() {
+var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+}
+if (document.readyState === 'complete') {
+documentInitOneSignal();
+}
+else {
+window.addEventListener("load", function(event){
+documentInitOneSignal();
+});
+}
+</script>
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style>
+<!-- Google AdSense snippet added by Site Kit -->
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2218698615359303" crossorigin="anonymous" type="text/javascript"></script>
+<!-- End Google AdSense snippet added by Site Kit -->
+<link rel="icon" href="https://hpgeneralstudies.com/wp-content/uploads/2017/12/cropped-HPGS-Logo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://hpgeneralstudies.com/wp-content/uploads/2017/12/cropped-HPGS-Logo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hpgeneralstudies.com/wp-content/uploads/2017/12/cropped-HPGS-Logo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://hpgeneralstudies.com/wp-content/uploads/2017/12/cropped-HPGS-Logo-270x270.jpg" />
+<style type="text/css">
+* {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: -moz-none;
+-o-user-select: none;
+user-select: none;
+}
+</style>
+<script data-ad-client="ca-pub-2218698615359303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body class="home blog custom-font-enabled single-author hfeed">
+<script data-cfasync="false" data-no-defer="1">var ewww_webp_supported=false;</script>
+<p style="margin-top:0px; position:fixed;top:1px;width:100%;"> <font size="6" bgcolor="yellow" face="sans-serif"> <marquee bgcolor="yellow" scrollamount="10" font size="10" face="sans-serif" behavior="scroll" direction="left"
+onmouseover="this.stop();"
+onmouseout="this.start();">  <a href="https://www.amazon.in/dp/B09MPH2G4M?ref=myi_title_dp"> Himachal GK Book - Hard Copy, </a>, <a href="https://www.instamojo.com/hpgeneralstudies" target="_blank"> Download Monthly HP Current Affairs </a> </marquee> </font> </p>                                                     
+<div id="page" class="site">
+<header id="masthead" class="site-header" role="banner">
+<div class="io-title-description">
+<a href="https://hpgeneralstudies.com/" title="Himachal Pradesh General Studies" rel="home">Himachal Pradesh General Studies</a>
+<br .../> 
+<a class="site-description">Education Revolution</a>
+</div>
+<div class="socialmedia">
+<a href="https://www.facebook.com/hpgeneralstudies.gk" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAAtJREFUCB1jGOQAAACgAAGXmq1SAAAAAElFTkSuQmCC" alt="Follow us on Facebook" data-src="https://hpgeneralstudies.com/wp-content/themes/iconic-one/img/facebook.png" decoding="async" class="lazyload" /><noscript><img src="https://hpgeneralstudies.com/wp-content/themes/iconic-one/img/facebook.png" alt="Follow us on Facebook" data-eio="l" /></noscript></a>
+<a class="rss" href="https://www.instagram.com/hpgeneralstudies/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAAtJREFUCB1jGOQAAACgAAGXmq1SAAAAAElFTkSuQmCC" alt="Follow us on rss" data-src="https://hpgeneralstudies.com/wp-content/themes/iconic-one/img/rss.png" decoding="async" class="lazyload" /><noscript><img src="https://hpgeneralstudies.com/wp-content/themes/iconic-one/img/rss.png" alt="Follow us on rss" data-eio="l" /></noscript></a>			
+</div>
+<nav id="site-navigation" class="themonic-nav" role="navigation">
+<a class="assistive-text" href="#main" title="Skip to content">Skip to content</a>
+<ul id="menu-top" class="nav-menu"><li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-37"><a href="https://hpgeneralstudies.com/" aria-current="page">Home</a></li>
+<li id="menu-item-2665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2665"><a href="https://hpgeneralstudies.com/test-series-himachal-pradesh-general-studies/">Test Series</a></li>
+<li id="menu-item-4540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4540"><a href="https://hpgeneralstudies.com/himachal-pradesh-current-affairs-himachal-gk-hp-current-affairs/">Current Affairs</a></li>
+<li id="menu-item-8151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-8151"><a href="https://hpgeneralstudies.com/category/himachalgk/">Himachal GK</a>
+<ul class="sub-menu">
+<li id="menu-item-4910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4910"><a href="https://hpgeneralstudies.com/history-of-himachal-pradesh-hp-himachal-pradesh-general-studies/">History</a></li>
+<li id="menu-item-4917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917"><a href="https://hpgeneralstudies.com/geography-of-himachal-pradesh-hp-himachal-pradesh-general-studies/">Geography</a></li>
+<li id="menu-item-4923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4923"><a href="https://hpgeneralstudies.com/economy-of-himachal-pradesh-hp-himachal-pradesh-general-studies/">Economy</a></li>
+<li id="menu-item-4936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4936"><a href="https://hpgeneralstudies.com/art-culture-and-architecture-of-himachal-pradesh/">Art & Culture</a></li>
+<li id="menu-item-4943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4943"><a href="https://hpgeneralstudies.com/people-of-himachal-pradesh-himachal-pradesh-general-studies/">People of HP</a></li>
+<li id="menu-item-4929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4929"><a href="https://hpgeneralstudies.com/miscellaneous-himachal-gk-himachal-pradesh-general-studies/">Misc HPGK</a></li>
+</ul>
+</li>
+<li id="menu-item-1010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1010"><a href="https://hpgeneralstudies.com/previous-year-papers-himachal-pradesh-general-studies/">Previous Year Papers</a>
+<ul class="sub-menu">
+<li id="menu-item-8056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8056"><a href="https://hpgeneralstudies.com/previous-year-papers-himachal-pradesh-general-studies/">Prelims Exam Papers</a></li>
+<li id="menu-item-8057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8057"><a href="https://hpgeneralstudies.com/previous-year-papers-mains-himachal-pradesh-general-studies-himachal-gk/">Main Exam Papers</a></li>
+</ul>
+</li>
+<li id="menu-item-1227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1227"><a href="https://hpgeneralstudies.com/himachal-pradesh-gk-mcqs-quiz-hpgk-himachal-pradesh-general-studies/">MCQs HPGK</a></li>
+<li id="menu-item-10532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10532"><a href="https://hpgeneralstudies.com/category/cut-off-poll/">Cut Off Poll</a></li>
+<li id="menu-item-2383" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2383"><a href="https://hpgeneralstudies.com/category/recommended-books/">Books</a></li>
+<li id="menu-item-4074" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4074"><a href="https://hpgeneralstudies.com/category/jobs-in-himachal-pradesh/">Jobs</a></li>
+<li id="menu-item-16484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16484"><a href="https://hpgeneralstudies.com/has-mains-syllabus-topics-2022-himachal-pradesh-general-studies/">HAS Mains</a></li>
+<li id="menu-item-10824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10824"><a href="https://hpgeneralstudies.com/category/hp-allied-mains/">Allied Mains</a></li>
+<li id="menu-item-9389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9389"><a href="https://hpgeneralstudies.com/has-hpas-toppers-interviews-himachal-pradesh-general-studies/">Topper’s Interviews</a></li>
+<li id="menu-item-9384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9384"><a href="https://hpgeneralstudies.com/has-hpas-mains-answer-writing-challenge-himachal-pradesh-general-studies/">HPAS Mains Answer Writing</a></li>
+<li id="menu-item-3990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3990"><a href="https://hpgeneralstudies.com/syllabus-hppsc-shimla-exams-hpssc-hamirpur-exams-himachal-gk/">Syllabus</a></li>
+<li id="menu-item-8153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8153"><a href="https://hpgeneralstudies.com/category/editorials/">Editorials</a></li>
+<li id="menu-item-10404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10404"><a href="https://hpgeneralstudies.com/about-us/">About Us</a></li>
+<li id="menu-item-12749" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12749"><a href="https://www.youtube.com/hpgeneralstudies">Youtube</a></li>
+</ul>		</nav><!-- #site-navigation -->
+<div class="clear"></div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="1907975401"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</header><!-- #masthead -->
+<div id="main" class="wrapper">
+<div id="primary" class="site-content">
+<div id="content" role="main">
+<article id="post-17227" class="post-17227 post type-post status-publish format-standard has-post-thumbnail hentry category-hppsc category-naib-tehsildar category-paper category-papers">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/" title="Permalink to Solved Paper Naib-Tehsildar Exam 2022 [Part-1] – HPPSC Shimla" rel="bookmark">Solved Paper Naib-Tehsildar Exam 2022 [Part-1] – HPPSC Shimla</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 30, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/" title="Permalink to Solved Paper Naib-Tehsildar Exam 2022 [Part-1] – HPPSC Shimla" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-naib-tehsildar-exam-2022-hppsc-shimla-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-naib-tehsildar-exam-2022-hppsc-shimla-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>1. The Rajas of Chamba belong to which lineage? Suryavanshi lineage of the Rajputs Chandravansi lineage of the Rajputs Agnivansi lineage of the Rajputs Nagvanshi 2. Revenue Training Institute is located at : Dharmshala, District Kangra Joginder Nagar, District Mandi Manali, District Kullu Fairlawns (Mashobra), District Shimla 3.  The agriculture crop year is : The same… <span class="read-more"><a href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/hppsc/" rel="category tag">HPPSC</a> <a href="https://hpgeneralstudies.com/category/naib-tehsildar/" rel="category tag">Naib Tehsildar</a> <a href="https://hpgeneralstudies.com/category/paper/" rel="category tag">Paper</a> <a href="https://hpgeneralstudies.com/category/papers/" rel="category tag">Papers</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17108" class="post-17108 post type-post status-publish format-standard has-post-thumbnail hentry category-editorials">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/pig-rearing-is-himachal-governments-new-outlook-to-boost-state-economy/" title="Permalink to Pig rearing is Himachal government’s new outlook to boost state economy" rel="bookmark">Pig rearing is Himachal government’s new outlook to boost state economy</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 27, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/pig-rearing-is-himachal-governments-new-outlook-to-boost-state-economy/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/pig-rearing-is-himachal-governments-new-outlook-to-boost-state-economy/" title="Permalink to Pig rearing is Himachal government’s new outlook to boost state economy" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Pig-Farming-Guide-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Pig-Farming-Guide-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>  State Government is laying special emphasis on enhancing livelihood opportunities for people of the state. Livestock breeding place an important role in the sustainability of economy of Himachal Pradesh. To ensure the qualitative and quantitative refinement in livestock production, the state government has taken various initiatives. As an effort in this direction, Himachal government… <span class="read-more"><a href="https://hpgeneralstudies.com/pig-rearing-is-himachal-governments-new-outlook-to-boost-state-economy/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/editorials/" rel="category tag">Editorials</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17104" class="post-17104 post type-post status-publish format-standard has-post-thumbnail hentry category-editorials">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/prasad-to-create-state-of-art-facilities-for-pilgrims-in-chintpurni/" title="Permalink to PRASAD to create State of Art facilities for Pilgrims in Chintpurni" rel="bookmark">PRASAD to create State of Art facilities for Pilgrims in Chintpurni</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 25, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/prasad-to-create-state-of-art-facilities-for-pilgrims-in-chintpurni/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/prasad-to-create-state-of-art-facilities-for-pilgrims-in-chintpurni/" title="Permalink to PRASAD to create State of Art facilities for Pilgrims in Chintpurni" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Chintapurni-Temple_Himachal-702x336-1-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Chintapurni-Temple_Himachal-702x336-1-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>Pilgrimage and heritage tourism are key themes for driving the tourism footfall in destinations and cities. The growth of domestic tourism in India largely depends on pilgrimage and heritage tourism and to tap this potential there was a need for integrated development of the selected pilgrimage destinations and integrated development of heritage cities in cooperation… <span class="read-more"><a href="https://hpgeneralstudies.com/prasad-to-create-state-of-art-facilities-for-pilgrims-in-chintpurni/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/editorials/" rel="category tag">Editorials</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17206" class="post-17206 post type-post status-publish format-standard has-post-thumbnail hentry category-hpas">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-3]" rel="bookmark">Solved Paper HPAS Prelims 2022 – [Part-3]</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 25, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-3]" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>71. Who was the author of the book “Tarikh-i-Rashidi” ? Ahmed Yadgaar Mirza Haidar Dughlat Gulam Hussain Shaikh Rizqullah Mushtaqui 72. Who was the founder of “Indian Association for the Cultivation of Science” (1876) ? C.V. Raman Mahendralal Sirkar Father Lafont Ashutosh Mukherjee 73. Who said, “Lord Ripon, the savior of India and his rule-the beginning of a Golden… <span class="read-more"><a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/hpas/" rel="category tag">HPAS</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17199" class="post-17199 post type-post status-publish format-standard has-post-thumbnail hentry category-hpas">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-2]" rel="bookmark">Solved Paper HPAS Prelims 2022 – [Part-2]</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 25, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-2]" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>41. Select the correct statements from the following: Supreme Court of India has allowed the State for silviculture green felling of three species on an experimental basis. Forests in H.P. cover an area of 37947 sq. kms of total geographical area of the state  In H.P. presently 30% of the total geographical areas support forest cover.  The aim… <span class="read-more"><a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/hpas/" rel="category tag">HPAS</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17183" class="post-17183 post type-post status-publish format-standard has-post-thumbnail hentry category-hpas tag-general-studies tag-has-prelims-paper-2022 tag-hpas-prelims-2022 tag-hppsc-shimla tag-paper tag-pdf-download-hpas-prelims-2022">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-1]" rel="bookmark">Solved Paper HPAS Prelims 2022 – [Part-1]</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 22, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/" title="Permalink to Solved Paper HPAS Prelims 2022 – [Part-1]" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/solved-paper-hpas-prelims-2022-hppsc-shimla-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>1. Given below are two statements : Statement I: According to a World Bank working paper, extreme poverty in India dropped to 10.2% in the pre-Covid year of 2019 from as much as 22.5% in 2011. Statement II: The paper uses the Consumer Pyramids Household Survey (CPHS) to provide estimates of how poverty and inequality in… <span class="read-more"><a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/hpas/" rel="category tag">HPAS</a></span>
+<span>Tags: <a href="https://hpgeneralstudies.com/tag/general-studies/" rel="tag">General Studies</a>, <a href="https://hpgeneralstudies.com/tag/has-prelims-paper-2022/" rel="tag">HAS Prelims Paper 2022</a>, <a href="https://hpgeneralstudies.com/tag/hpas-prelims-2022/" rel="tag">HPAS Prelims 2022</a>, <a href="https://hpgeneralstudies.com/tag/hppsc-shimla/" rel="tag">HPPSC Shimla</a>, <a href="https://hpgeneralstudies.com/tag/paper/" rel="tag">Paper</a>, <a href="https://hpgeneralstudies.com/tag/pdf-download-hpas-prelims-2022/" rel="tag">PDF download HPAS Prelims 2022</a></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17106" class="post-17106 post type-post status-publish format-standard has-post-thumbnail hentry category-editorials">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/" title="Permalink to What is Mukhya Mantri Shagun Yojna?" rel="bookmark">What is Mukhya Mantri Shagun Yojna?</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 18, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/" title="Permalink to What is Mukhya Mantri Shagun Yojna?" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/shagun-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/shagun-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>Women are playing an important role in building a strong and vibrant society. State Government has taken effective steps to ensure active participation of women in the development of the society. State Government has started many welfare and innovative schemes to improve the socio-economic condition of women which have proven a milestone in the direction of women empowerment.… <span class="read-more"><a href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/editorials/" rel="category tag">Editorials</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<article id="post-17110" class="post-17110 post type-post status-publish format-standard has-post-thumbnail hentry category-editorials">
+<header class="entry-header">
+<h2 class="entry-title">
+<a href="https://hpgeneralstudies.com/what-is-panchavati-scheme/" title="Permalink to What is Panchavati scheme?" rel="bookmark">What is Panchavati scheme?</a>
+</h2>
+<div class="below-title-meta">
+<div class="adt">
+By        <span class="vcard author">
+<span class="fn"><a href="https://hpgeneralstudies.com/author/karunbharmoria/" title="Posts by HP General Studies" rel="author">HP General Studies</a></span>
+</span>
+<span class="meta-sep">|</span> 
+<span class="date updated">October 18, 2022</span>
+</div>
+<div class="adt-comment">
+<a class="link-comments" href="https://hpgeneralstudies.com/what-is-panchavati-scheme/#respond">0 Comment</a> 
+</div>       
+</div><!-- below title meta end -->
+</header><!-- .entry-header -->
+<div class="entry-summary">
+<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+<a href="https://hpgeneralstudies.com/what-is-panchavati-scheme/" title="Permalink to What is Panchavati scheme?" rel="bookmark">
+<img width="200" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMAQMAAAADX3SnAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABpJREFUGBntwYEAAAAAw6D7U8/gBNUAAADgCA44AAFSac/OAAAAAElFTkSuQmCC" class="alignleft wp-post-image lazyload" alt="" data-src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Panchwati-Yojana-Thumbnail-English-200x140.jpg" decoding="async" /><noscript><img width="200" height="140" src="https://hpgeneralstudies.com/wp-content/uploads/2022/10/Panchwati-Yojana-Thumbnail-English-200x140.jpg" class="alignleft wp-post-image" alt="" data-eio="l" /></noscript>				</a>
+</div>
+<p>The holistic and inclusive schemes of the state government are ensuring welfare of every section of the society. The state government has always given top priority to senior citizens of the state and to facilitate them has started Panchavati scheme. Under this scheme, parks and gardens with necessary facilities are being developed in each development… <span class="read-more"><a href="https://hpgeneralstudies.com/what-is-panchavati-scheme/">Read More »</a></span></p>
+</div><!-- .entry-summary -->
+<footer class="entry-meta">
+<span>Category: <a href="https://hpgeneralstudies.com/category/editorials/" rel="category tag">Editorials</a></span>
+<span></span>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- singe post end -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="4858441131"
+data-ad-format="link"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</footer><!-- .entry-meta -->
+</article><!-- #post -->
+<nav id="nav-below" class="navigation" role="navigation">
+<div class="assistive-text">Post navigation</div>
+<div class="nav-previous alignleft"><a href="https://hpgeneralstudies.com/page/2/" ><span class="meta-nav">←</span> Older posts</a></div>
+<div class="nav-next alignright"></div>
+</nav><!-- #nav-below .navigation -->
+</div><!-- #content -->
+</div><!-- #primary -->
+<div id="secondary" class="widget-area" role="complementary">
+<aside id="search-3" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://hpgeneralstudies.com/">
+<div>
+<label class="screen-reader-text" for="s">Search for:</label>
+<input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2218698615359303"
+data-ad-slot="1907975401"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="block-2" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.amazon.in/dp/B09MPH2G4M?ref=myi_title_dp" target="_blank"><img width="666" height="879" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApoAAANvAQAAAABVX0dMAAAAAnRSTlMAAHaTzTgAAABfSURBVHja7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODUj6gAB4JxDsQAAAABJRU5ErkJggg==" alt="" class="wp-image-16612 lazyload"   data-src="https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book.jpg 666w, https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book-227x300.jpg 227w, https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book-660x871.jpg 660w" data-sizes="auto" /><noscript><img width="666" height="879" src="https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book.jpg" alt="" class="wp-image-16612" srcset="https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book.jpg 666w, https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book-227x300.jpg 227w, https://hpgeneralstudies.com/wp-content/uploads/2021/11/front-cover-book-660x871.jpg 660w" sizes="(max-width: 666px) 100vw, 666px" data-eio="l" /></noscript></a><figcaption><a href="https://www.amazon.in/dp/B09MPH2G4M?ref=myi_title_dp" target="_blank" rel="noreferrer noopener">https://www.amazon.in/dp/B09MPH2G4M?ref=myi_title_dp</a></figcaption></figure>
+</aside><aside id="block-4" class="widget widget_block">
+<div class="wp-block-group"><div class="wp-block-group__inner-container"></div></div>
+</aside><aside id="widget_sp_image-30" class="widget widget_sp_image"><p class="widget-title">Join us on Telegram</p><a href="https://telegram.me/hpgeneralstudies" id="https://telegram.me/hpgeneralstudies" target="_blank" class="widget_sp_image-image-link" title="Join us on Telegram"><img width="300" height="116" alt="Join us on Telegram" class="attachment-full aligncenter lazyload" style="max-width: 100%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAB0AQMAAAAFGZ0YAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABtJREFUGBntwTEBAAAAwiD7p14ND2AAAAAA3AgRrAABjuAUFQAAAABJRU5ErkJggg==" data-src="https://hpgeneralstudies.com/wp-content/uploads/2019/05/Join-us-on-Telegram.jpg" decoding="async" /><noscript><img width="300" height="116" alt="Join us on Telegram" class="attachment-full aligncenter" style="max-width: 100%;" src="https://hpgeneralstudies.com/wp-content/uploads/2019/05/Join-us-on-Telegram.jpg" data-eio="l" /></noscript></a></aside><aside id="block-3" class="widget widget_block"></aside><aside id="block-5" class="widget widget_block">
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<div class="widget popular-posts">
+<h2 class="widgettitle">Most Popular Posts</h2>
+<ul class="wpp-list wpp-list-with-thumbnails">
+<li>
+<a href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17227-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/solved-paper-naib-tehsildar-exam-2022-part-1-hppsc-shimla/" class="wpp-post-title" target="_self">Solved Paper Naib-Tehsildar Exam 2022 [Part-1] – HPPSC Shimla</a>
+<span class="wpp-excerpt">1. The Rajas of Chamba belong to which lineage?
+Su...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17183-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-1/" class="wpp-post-title" target="_self">Solved Paper HPAS Prelims 2022 – [Part-1]</a>
+<span class="wpp-excerpt">1. Given below are two statements :
+Statement I: Acc...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/what-is-panchavati-scheme/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17110-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/what-is-panchavati-scheme/" class="wpp-post-title" target="_self">What is Panchavati scheme?</a>
+<span class="wpp-excerpt">The holistic and inclusive schemes of the state governm...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17106-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/what-is-mukhya-mantri-shagun-yojna/" class="wpp-post-title" target="_self">What is Mukhya Mantri Shagun Yojna?</a>
+<span class="wpp-excerpt">Women are playing an important role in building a stron...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17206-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-3/" class="wpp-post-title" target="_self">Solved Paper HPAS Prelims 2022 – [Part-3]</a>
+<span class="wpp-excerpt">71. Who was the author of the book "Tarikh-i-Rashidi” ?...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/where-is-himachals-first-biodiversity-park/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75.jpeg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75.jpeg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@1.5x.jpeg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@2x.jpeg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@2.5x.jpeg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@3x.jpeg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75.jpeg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75.jpeg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@1.5x.jpeg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@2x.jpeg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@2.5x.jpeg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17112-featured-75x75@3x.jpeg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/where-is-himachals-first-biodiversity-park/" class="wpp-post-title" target="_self">Where is Himachal’s first Biodiversity Park?</a>
+<span class="wpp-excerpt">The valley of Bhulah is ready to make its contribution...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+<li>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/" target="_self"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLAQMAAAACgOipAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA9JREFUGBljGAWjYBSQDgADOQAByKx9EAAAAABJRU5ErkJggg=="   width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb lazyload" loading="lazy" data-src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75.jpg" decoding="async" data-srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@3x.jpg 3x" /><noscript><img src="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75.jpg" srcset="https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75.jpg, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@1.5x.jpg 1.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@2x.jpg 2x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@2.5x.jpg 2.5x, https://hpgeneralstudies.com/wp-content/uploads/wordpress-popular-posts/17199-featured-75x75@3x.jpg 3x"  width="75" height="75" alt="" class="wpp-thumbnail wpp_featured wpp_cached_thumb" loading="lazy" data-eio="l" /></noscript></a>
+<a href="https://hpgeneralstudies.com/solved-paper-hpas-prelims-2022-part-2/" class="wpp-post-title" target="_self">Solved Paper HPAS Prelims 2022 – [Part-2]</a>
+<span class="wpp-excerpt">41. Select the correct statements from the following:
+...</span>
+<span class="wpp-meta post-stats"><span class="wpp-author">by <a href="https://hpgeneralstudies.com/author/karunbharmoria/">HP General Studies</a></span></span>
+</li>
+</ul>
+</div>
+</div></div>
+</aside>		</div><!-- #secondary -->
+	</div><!-- #main .wrapper -->
+<footer id="colophon" role="contentinfo">
+<div class="site-info">
+<div class="footercopy">@Copyright 2021</div>
+<div class="footercredit">Himachal Pradesh General Studies</div>
+<div class="clear"></div>
+</div><!-- .site-info -->
+</footer><!-- #colophon -->
+<div class="site-wordpress">
+Powered by <a href="https://netgen.in" target="_blank">Netgen</a>
+</div><!-- .site-info -->
+<div class="clear"></div>
+</div><!-- #page -->
+<style type="text/css" media="print">* {
+display: none !important;
+}</style><noscript><style>#cpp-js-disabled {
+top: 0;
+left: 0;
+color: #101010;
+width: 100%;
+height: 100%;
+z-index: 9999;
+position: fixed;
+font-size: 27px;
+text-align: center;
+background: #fbcaca;
+padding-top: 250px;
+}</style><div id="cpp-js-disabled"><h4> You have to enable JavaScript in your Browser to access hpgeneralstudies.com.</h4></div></noscript>
+<script type="text/javascript">
+document.addEventListener("contextmenu", function (e) {
+e.preventDefault();
+}, false);
+jQuery('body').bind('copy paste',function(e) {
+e.preventDefault(); return false; 
+});
+</script>
+<script type='text/javascript' id='eio-lazy-load-js-before'>
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+</script>
+<script type='text/javascript' src='https://hpgeneralstudies.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=670' id='eio-lazy-load-js'></script>
+<script type='text/javascript' src='https://hpgeneralstudies.com/wp-content/themes/iconic-one/js/selectnav.js?ver=1.0' id='themonic-mobile-navigation-js'></script>
+<script type='text/javascript' src='https://hpgeneralstudies.com/wp-includes/js/wp-embed.min.js?ver=5.8.6' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.8.6' async='async' id='remote_sdk-js'></script>
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+</body>
+</html><!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+Retrieved 2970 objects (689 KB) from Redis using PhpRedis (v5.3.7).
+-->
+<!-- WP Fastest Cache file was created in 0.18856406211853 seconds, on 30-10-22 22:33:20 -->

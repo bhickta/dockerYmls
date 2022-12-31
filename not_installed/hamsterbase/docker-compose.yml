@@ -1,0 +1,13 @@
+version: "2.4"
+
+services:
+  hamsterbase:
+    image: hamsterbase/hamsterbase:0.4.2-stable 
+    container_name: hamsterbase 
+    restart: unless-stopped
+    ports:
+      - 31001:3001
+    volumes:
+      - hamsterbase_data:/app/data
+volumes:
+  hamsterbase_data:

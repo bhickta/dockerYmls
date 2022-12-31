@@ -1,0 +1,11 @@
+version: "3"
+services:
+  jupyter:
+    image: jupyterhub/jupyterhub
+    container_name: jupyterhub
+    ports:
+      - 6914:8000
+    volumes:
+      - my_volume:/projects
+volumes:
+  my_volume:

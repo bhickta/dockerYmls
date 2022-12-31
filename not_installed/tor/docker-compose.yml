@@ -1,0 +1,8 @@
+version: '2'
+services:
+  tor:
+    container_name: tor-browser
+    image: domistyle/tor-browser
+    ports:
+      - 5800:5800
+    restart: unless-stopped

@@ -1,0 +1,17 @@
+version: '2'
+services:
+  kanboard:
+    container_name: kanboard
+    image: bhickta/kanboard
+    ports:
+      - "100:80"
+      - "101:443"
+    volumes:
+      - data:/var/www/app/data:rw
+      - plugins:/var/www/app/plugins:rw
+      - ssl:/etc/nginx/ssl
+    restart: always
+volumes:
+  data:
+  plugins:
+  ssl:

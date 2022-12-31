@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  focalboard:
+    image: ghcr.io/logseq/logseq-webapp:latest
+    container_name: logseq
+    restart: unless-stopped
+    ports:
+      - 3001:80

@@ -1,0 +1,26 @@
+version: '2'
+services:
+  limesurvey:
+    container_name: limesurvey
+    image: acspri/limesurvey
+    ports:
+      - 8082:80
+    environment:
+      LIMESURVEY_DB_PASSWORD: Impossible.db1@
+      LIMESURVEY_ADMIN_USER: bhickta
+      LIMESURVEY_ADMIN_PASSWORD: Impossible.limesurvey1@
+      LIMESURVEY_ADMIN_NAME: Nishant Bhickta
+      LIMESURVEY_ADMIN_EMAIL: nishantbhickta+limesurvey@gmail.com
+    volumes:
+      - plugins:/var/www/html/plugins
+      - upload:/var/www/html/upload
+      - config:/var/www/html/application/config
+  mysql:
+    container_name: limesurvey.db
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: Impossible.db1@
+volumes:
+  plugins:
+  upload:
+  config:

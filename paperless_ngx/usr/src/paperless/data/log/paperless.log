@@ -1,0 +1,835 @@
+[2022-11-03 02:24:55,755] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-03 02:25:31,069] [INFO] [paperless.sanity_checker] Sanity checker detected no issues.
+[2022-11-03 03:07:38,387] [INFO] [paperless.consumer] Consuming 02 Jamabandi 02.PDF
+[2022-11-03 03:07:38,389] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:07:38,394] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:07:38,401] [DEBUG] [paperless.consumer] Parsing 02 Jamabandi 02.PDF...
+[2022-11-03 03:07:38,707] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-m6zkq73p
+[2022-11-03 03:07:38,852] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-m6zkq73p'), 'output_file': '/tmp/paperless/paperless-95vf5no_/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-95vf5no_/sidecar.txt'}
+[2022-11-03 03:07:40,036] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 03:07:40,331] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-95vf5no_/archive.pdf
+[2022-11-03 03:07:40,332] [DEBUG] [paperless.consumer] Generating thumbnail for 02 Jamabandi 02.PDF...
+[2022-11-03 03:07:40,339] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-95vf5no_/archive.pdf[0] /tmp/paperless/paperless-95vf5no_/convert.webp
+[2022-11-03 03:07:42,656] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:07:42,663] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:07:42,663] [DEBUG] [paperless.consumer] Creation date from parse_date: 2000-12-02 00:00:00+00:00
+[2022-11-03 03:07:42,723] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-m6zkq73p
+[2022-11-03 03:07:42,734] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-95vf5no_
+[2022-11-03 03:07:42,735] [INFO] [paperless.consumer] Document 2000-12-02 02 Jamabandi 02 consumption finished
+[2022-11-03 03:07:45,170] [INFO] [paperless.consumer] Consuming Patwari landless certificate Nishant Bhickta 2022.pdf
+[2022-11-03 03:07:45,173] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:07:45,175] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:07:45,181] [DEBUG] [paperless.consumer] Parsing Patwari landless certificate Nishant Bhickta 2022.pdf...
+[2022-11-03 03:07:45,228] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-ysfyh8p8
+[2022-11-03 03:07:45,333] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-ysfyh8p8'), 'output_file': '/tmp/paperless/paperless-inpic7mw/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-inpic7mw/sidecar.txt'}
+[2022-11-03 03:08:05,552] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:08:12,366] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 03:08:12,367] [DEBUG] [paperless.consumer] Generating thumbnail for Patwari landless certificate Nishant Bhickta 2022.pdf...
+[2022-11-03 03:08:12,387] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-inpic7mw/archive.pdf[0] /tmp/paperless/paperless-inpic7mw/convert.webp
+[2022-11-03 03:08:14,340] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:08:14,348] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:08:14,350] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 03:07:37+00:00
+[2022-11-03 03:08:14,401] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-ysfyh8p8
+[2022-11-03 03:08:14,410] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-inpic7mw
+[2022-11-03 03:08:14,411] [INFO] [paperless.consumer] Document 2022-11-03 Patwari landless certificate Nishant Bhickta 2022 consumption finished
+[2022-11-03 03:08:15,320] [INFO] [paperless.consumer] Consuming 03 Mutation Application.pdf
+[2022-11-03 03:08:15,323] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:08:15,325] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:08:15,339] [DEBUG] [paperless.consumer] Parsing 03 Mutation Application.pdf...
+[2022-11-03 03:08:15,801] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-kblmbqw0
+[2022-11-03 03:08:15,912] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-kblmbqw0'), 'output_file': '/tmp/paperless/paperless-dus097gg/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-dus097gg/sidecar.txt'}
+[2022-11-03 03:08:17,511] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 03:08:17,673] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-dus097gg/archive.pdf
+[2022-11-03 03:08:17,674] [DEBUG] [paperless.consumer] Generating thumbnail for 03 Mutation Application.pdf...
+[2022-11-03 03:08:17,682] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-dus097gg/archive.pdf[0] /tmp/paperless/paperless-dus097gg/convert.webp
+[2022-11-03 03:08:20,045] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:08:20,052] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:08:20,054] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 03:07:37+00:00
+[2022-11-03 03:08:20,124] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-kblmbqw0
+[2022-11-03 03:08:20,137] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-dus097gg
+[2022-11-03 03:08:20,138] [INFO] [paperless.consumer] Document 2022-11-03 03 Mutation Application consumption finished
+[2022-11-03 03:08:25,353] [INFO] [paperless.consumer] Consuming 01 Jamabandi 01.PDF
+[2022-11-03 03:08:25,355] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:08:25,358] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:08:25,367] [DEBUG] [paperless.consumer] Parsing 01 Jamabandi 01.PDF...
+[2022-11-03 03:08:25,887] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-5nra192u
+[2022-11-03 03:08:25,985] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-5nra192u'), 'output_file': '/tmp/paperless/paperless-diqx1njn/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-diqx1njn/sidecar.txt'}
+[2022-11-03 03:08:26,980] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 03:08:27,539] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-diqx1njn/archive.pdf
+[2022-11-03 03:08:27,540] [DEBUG] [paperless.consumer] Generating thumbnail for 01 Jamabandi 01.PDF...
+[2022-11-03 03:08:27,550] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-diqx1njn/archive.pdf[0] /tmp/paperless/paperless-diqx1njn/convert.webp
+[2022-11-03 03:08:40,956] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:08:40,962] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:08:40,962] [DEBUG] [paperless.consumer] Creation date from parse_date: 2000-08-03 00:00:00+00:00
+[2022-11-03 03:08:41,028] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-5nra192u
+[2022-11-03 03:08:41,042] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-diqx1njn
+[2022-11-03 03:08:41,042] [INFO] [paperless.consumer] Document 2000-08-03 01 Jamabandi 01 consumption finished
+[2022-11-03 03:08:45,482] [INFO] [paperless.consumer] Consuming Patwari report and Jamabandi.pdf
+[2022-11-03 03:08:45,486] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:08:45,488] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:08:45,499] [DEBUG] [paperless.consumer] Parsing Patwari report and Jamabandi.pdf...
+[2022-11-03 03:08:46,271] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-5fkk4fl_
+[2022-11-03 03:08:46,368] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-5fkk4fl_'), 'output_file': '/tmp/paperless/paperless-l9pvvo7m/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-l9pvvo7m/sidecar.txt'}
+[2022-11-03 03:09:12,463] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 03:09:13,464] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-l9pvvo7m/archive.pdf
+[2022-11-03 03:09:13,464] [DEBUG] [paperless.consumer] Generating thumbnail for Patwari report and Jamabandi.pdf...
+[2022-11-03 03:09:13,472] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-l9pvvo7m/archive.pdf[0] /tmp/paperless/paperless-l9pvvo7m/convert.webp
+[2022-11-03 03:09:27,149] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:09:27,157] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:09:27,158] [DEBUG] [paperless.consumer] Creation date from parse_date: 2000-08-03 00:00:00+00:00
+[2022-11-03 03:09:27,246] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-5fkk4fl_
+[2022-11-03 03:09:27,260] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-l9pvvo7m
+[2022-11-03 03:09:27,261] [INFO] [paperless.consumer] Document 2000-08-03 Patwari report and Jamabandi consumption finished
+[2022-11-03 03:09:30,812] [INFO] [paperless.consumer] Consuming PNB Attested Passbook - Rajesh Kumar Papa EPFO PF Pension - Reduced.pdf
+[2022-11-03 03:09:30,815] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:09:30,817] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:09:30,826] [DEBUG] [paperless.consumer] Parsing PNB Attested Passbook - Rajesh Kumar Papa EPFO PF Pension - Reduced.pdf...
+[2022-11-03 03:09:30,887] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-nxlwm7xh
+[2022-11-03 03:09:31,015] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-nxlwm7xh'), 'output_file': '/tmp/paperless/paperless-w1kh3g_w/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-w1kh3g_w/sidecar.txt'}
+[2022-11-03 03:09:47,552] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 03:09:47,554] [DEBUG] [paperless.consumer] Generating thumbnail for PNB Attested Passbook - Rajesh Kumar Papa EPFO PF Pension - Reduced.pdf...
+[2022-11-03 03:09:47,564] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-w1kh3g_w/archive.pdf[0] /tmp/paperless/paperless-w1kh3g_w/convert.webp
+[2022-11-03 03:09:49,687] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:09:49,694] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:09:49,694] [DEBUG] [paperless.consumer] Creation date from parse_date: 2000-01-01 00:00:00+00:00
+[2022-11-03 03:09:50,005] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-nxlwm7xh
+[2022-11-03 03:09:50,017] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-w1kh3g_w
+[2022-11-03 03:09:50,018] [INFO] [paperless.consumer] Document 2000-01-01 PNB Attested Passbook - Rajesh Kumar Papa EPFO PF Pension - Reduced consumption finished
+[2022-11-03 03:10:06,402] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:15:41,787] [INFO] [paperless.consumer] Consuming Nishant Bhickta - Photo.jpg
+[2022-11-03 03:15:41,789] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 03:15:41,791] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:15:41,796] [DEBUG] [paperless.consumer] Parsing Nishant Bhickta - Photo.jpg...
+[2022-11-03 03:15:41,941] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 44 based on image width 371
+[2022-11-03 03:15:41,942] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-iijs5p7y: 120
+[2022-11-03 03:15:41,942] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-iijs5p7y'), 'output_file': '/tmp/paperless/paperless-3fj3_12u/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-3fj3_12u/sidecar.txt', 'image_dpi': 120}
+[2022-11-03 03:15:44,761] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 03:15:44,763] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 03:15:44,764] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 44 based on image width 371
+[2022-11-03 03:15:44,765] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-iijs5p7y: 120
+[2022-11-03 03:15:44,765] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-iijs5p7y'), 'output_file': '/tmp/paperless/paperless-3fj3_12u/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-3fj3_12u/sidecar-fallback.txt', 'image_dpi': 120}
+[2022-11-03 03:15:47,407] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 03:15:47,408] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-iijs5p7y, the content will be empty.
+[2022-11-03 03:15:47,409] [DEBUG] [paperless.consumer] Generating thumbnail for Nishant Bhickta - Photo.jpg...
+[2022-11-03 03:15:47,428] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-3fj3_12u/archive.pdf[0] /tmp/paperless/paperless-3fj3_12u/convert.webp
+[2022-11-03 03:15:47,987] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:15:47,994] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:15:47,996] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 03:15:41+00:00
+[2022-11-03 03:15:48,034] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-iijs5p7y
+[2022-11-03 03:15:48,051] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-3fj3_12u
+[2022-11-03 03:15:48,052] [INFO] [paperless.consumer] Document 2022-11-03 Nishant Bhickta - Photo consumption finished
+[2022-11-03 03:15:50,369] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:16:25,657] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:16:33,859] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:17:29,462] [INFO] [paperless.consumer] Consuming Nishant Bhickta - Aadhar Card in PDF.pdf
+[2022-11-03 03:17:29,464] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 03:17:29,466] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:17:29,471] [DEBUG] [paperless.consumer] Parsing Nishant Bhickta - Aadhar Card in PDF.pdf...
+[2022-11-03 03:17:29,749] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-hxunurd1
+[2022-11-03 03:17:29,874] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-hxunurd1'), 'output_file': '/tmp/paperless/paperless-kpvynpcn/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-kpvynpcn/sidecar.txt'}
+[2022-11-03 03:17:31,569] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 03:17:31,689] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-kpvynpcn/archive.pdf
+[2022-11-03 03:17:31,689] [DEBUG] [paperless.consumer] Generating thumbnail for Nishant Bhickta - Aadhar Card in PDF.pdf...
+[2022-11-03 03:17:31,697] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-kpvynpcn/archive.pdf[0] /tmp/paperless/paperless-kpvynpcn/convert.webp
+[2022-11-03 03:17:39,229] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:17:39,236] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:17:39,237] [DEBUG] [paperless.consumer] Creation date from parse_date: 1996-10-28 00:00:00+00:00
+[2022-11-03 03:17:39,297] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-hxunurd1
+[2022-11-03 03:17:39,310] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-kpvynpcn
+[2022-11-03 03:17:39,311] [INFO] [paperless.consumer] Document 1996-10-28 Nishant Bhickta - Aadhar Card in PDF consumption finished
+[2022-11-03 03:17:56,615] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:18:59,384] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:19:33,570] [INFO] [paperless.consumer] Consuming RAJESH- PPO.jpg
+[2022-11-03 03:19:33,574] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 03:19:33,575] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 03:19:33,581] [DEBUG] [paperless.consumer] Parsing RAJESH- PPO.jpg...
+[2022-11-03 03:19:33,745] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 308 based on image width 2550
+[2022-11-03 03:19:33,746] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-mijsmy7_: 300
+[2022-11-03 03:19:33,746] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-mijsmy7_'), 'output_file': '/tmp/paperless/paperless-3sk697_3/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-3sk697_3/sidecar.txt', 'image_dpi': 300}
+[2022-11-03 03:20:41,187] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 03:20:41,189] [DEBUG] [paperless.consumer] Generating thumbnail for RAJESH- PPO.jpg...
+[2022-11-03 03:20:41,200] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-3sk697_3/archive.pdf[0] /tmp/paperless/paperless-3sk697_3/convert.webp
+[2022-11-03 03:20:49,032] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:20:49,042] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:20:49,044] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 03:19:33+00:00
+[2022-11-03 03:20:49,149] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-mijsmy7_
+[2022-11-03 03:20:49,162] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-3sk697_3
+[2022-11-03 03:20:49,163] [INFO] [paperless.consumer] Document 2022-11-03 RAJESH- PPO consumption finished
+[2022-11-03 03:20:49,636] [ERROR] [paperless.consumer] Not consuming RAJESH- PPO.jpg: It is a duplicate.
+[2022-11-03 03:20:57,334] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:23:03,624] [INFO] [paperless.consumer] Consuming FD.md
+[2022-11-03 03:23:03,631] [DEBUG] [paperless.consumer] Detected mime type: text/plain
+[2022-11-03 03:23:03,651] [DEBUG] [paperless.consumer] Parser: TextDocumentParser
+[2022-11-03 03:23:03,657] [DEBUG] [paperless.consumer] Parsing FD.md...
+[2022-11-03 03:23:03,657] [DEBUG] [paperless.consumer] Generating thumbnail for FD.md...
+[2022-11-03 03:23:03,794] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:23:03,801] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 03:23:03,802] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 03:23:03.201063+00:00
+[2022-11-03 03:23:03,841] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-7ea1x65u
+[2022-11-03 03:23:03,853] [DEBUG] [paperless.parsing.text] Deleting directory /tmp/paperless/paperless-kfin5_z3
+[2022-11-03 03:23:03,853] [INFO] [paperless.consumer] Document 2022-11-03 FD consumption finished
+[2022-11-03 03:23:10,012] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:23:17,513] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 03:23:22,979] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/originals/0000010.txt.
+[2022-11-03 03:23:22,979] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/thumbnails/0000010.webp.
+[2022-11-03 04:11:51,128] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-03 04:11:51,129] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-03 07:01:44,453] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-03 07:03:38,338] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-03 07:03:38,339] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-03 07:05:24,942] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-03 07:47:39,925] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:48:31,337] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:49:16,717] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:49:50,952] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:50:15,258] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:50:46,022] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 07:52:18,734] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 10:54:42,157] [INFO] [paperless.consumer] Consuming Laxmikant_Polity_6th_Edition_English.pdf
+[2022-11-03 10:54:42,162] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 10:54:42,163] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 10:54:42,171] [DEBUG] [paperless.consumer] Parsing Laxmikant_Polity_6th_Edition_English.pdf...
+[2022-11-03 10:57:42,299] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-xj5qim1b
+[2022-11-03 10:57:42,499] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-xj5qim1b'), 'output_file': '/tmp/paperless/paperless-1gv3_dlq/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-1gv3_dlq/sidecar.txt'}
+[2022-11-03 11:06:43,546] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 11:08:46,085] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-1gv3_dlq/archive.pdf
+[2022-11-03 11:08:46,085] [DEBUG] [paperless.consumer] Generating thumbnail for Laxmikant_Polity_6th_Edition_English.pdf...
+[2022-11-03 11:08:46,092] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-1gv3_dlq/archive.pdf[0] /tmp/paperless/paperless-1gv3_dlq/convert.webp
+[2022-11-03 11:08:59,060] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 11:08:59,073] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 11:08:59,074] [DEBUG] [paperless.consumer] Creation date from parse_date: 2013-11-11 00:00:00+00:00
+[2022-11-03 11:09:03,347] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-xj5qim1b
+[2022-11-03 11:09:03,371] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-1gv3_dlq
+[2022-11-03 11:09:03,375] [INFO] [paperless.consumer] Document 2013-11-11 Laxmikant_Polity_6th_Edition_English consumption finished
+[2022-11-03 11:09:08,516] [ERROR] [paperless.consumer] Not consuming Laxmikant_Polity_6th_Edition_English.pdf: It is a duplicate.
+[2022-11-03 13:20:49,962] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:20:58,680] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://calibre-ebook.com/xmp-namespace}timestamp: 2020-02-24T09:57:22+05:30. Error: 'http://calibre-ebook.com/xmp-namespace'
+[2022-11-03 13:20:58,680] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://calibre-ebook.com/xmp-namespace}title_sort: Indian Polity - For Civil Services and Other State Examinations | 6th Edition. Error: 'http://calibre-ebook.com/xmp-namespace'
+[2022-11-03 13:20:58,681] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://calibre-ebook.com/xmp-namespace}author_sort: Laxmikanth, M.. Error: 'http://calibre-ebook.com/xmp-namespace'
+[2022-11-03 13:20:58,682] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://www.aiim.org/pdfa/ns/extension/}schemas: {None}. Error: 'http://www.aiim.org/pdfa/ns/extension/'
+[2022-11-03 13:20:58,683] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://www.foxitsoftware.com/connectedPDF/1.0/}cDocID: https://cws.connectedpdf.com/cDocID/68164A9CEAC941EDCEEFE4DBC0BEA966~C79EED8C5D2611EAA76CA62CC0D10A00EF5F5AC331370B73-88F4494150CBDADB-91CD5A530DF25994C34E8600. Error: 'http://www.foxitsoftware.com/connectedPDF/1.0/'
+[2022-11-03 13:20:58,683] [WARNING] [paperless.parsing.tesseract] Error while reading metadata {http://www.foxitsoftware.com/connectedPDF/1.0/}cVersionID: https://cws.connectedpdf.com/cVersionID/68164A9CEAC941EDCEEFE4DBC0BEA966~C79FB0645D2611EAA76CA62CC0D10A00EF5F5AC331370B73-B59229462509DB1E-D4EC12EE3A6BD1EE77C38600. Error: 'http://www.foxitsoftware.com/connectedPDF/1.0/'
+[2022-11-03 13:23:40,874] [INFO] [paperless.consumer] Consuming e-Nomination.pdf
+[2022-11-03 13:23:40,879] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:23:40,881] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:23:40,890] [DEBUG] [paperless.consumer] Parsing e-Nomination.pdf...
+[2022-11-03 13:23:41,376] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-6ahkhd6j
+[2022-11-03 13:23:41,591] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-6ahkhd6j'), 'output_file': '/tmp/paperless/paperless-c4qutmyp/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-c4qutmyp/sidecar.txt'}
+[2022-11-03 13:23:43,136] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 13:23:43,296] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-c4qutmyp/archive.pdf
+[2022-11-03 13:23:43,296] [DEBUG] [paperless.consumer] Generating thumbnail for e-Nomination.pdf...
+[2022-11-03 13:23:43,305] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-c4qutmyp/archive.pdf[0] /tmp/paperless/paperless-c4qutmyp/convert.webp
+[2022-11-03 13:23:49,405] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:23:49,413] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:23:49,414] [DEBUG] [paperless.consumer] Creation date from parse_date: 1963-12-05 00:00:00+00:00
+[2022-11-03 13:23:49,573] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-6ahkhd6j
+[2022-11-03 13:23:49,601] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-c4qutmyp
+[2022-11-03 13:23:49,603] [INFO] [paperless.consumer] Document 1963-12-05 e-Nomination consumption finished
+[2022-11-03 13:23:50,711] [INFO] [paperless.consumer] Consuming last claim status.pdf
+[2022-11-03 13:23:50,715] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:23:50,717] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:23:50,727] [DEBUG] [paperless.consumer] Parsing last claim status.pdf...
+[2022-11-03 13:23:51,249] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-y1wil3zi
+[2022-11-03 13:23:51,397] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-y1wil3zi'), 'output_file': '/tmp/paperless/paperless-1qql0wgz/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-1qql0wgz/sidecar.txt'}
+[2022-11-03 13:23:52,742] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 13:23:52,886] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-1qql0wgz/archive.pdf
+[2022-11-03 13:23:52,886] [DEBUG] [paperless.consumer] Generating thumbnail for last claim status.pdf...
+[2022-11-03 13:23:52,895] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-1qql0wgz/archive.pdf[0] /tmp/paperless/paperless-1qql0wgz/convert.webp
+[2022-11-03 13:23:55,876] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:23:55,882] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:23:55,883] [DEBUG] [paperless.consumer] Creation date from parse_date: 1963-12-05 00:00:00+00:00
+[2022-11-03 13:23:56,992] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:24:01,032] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-y1wil3zi
+[2022-11-03 13:24:01,047] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-1qql0wgz
+[2022-11-03 13:24:01,048] [INFO] [paperless.consumer] Document 1963-12-05 last claim status consumption finished
+[2022-11-03 13:24:31,176] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:26:35,067] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:27:20,563] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:33:37,010] [INFO] [paperless.consumer] Consuming Rajesh Kumar - Aadhar.png
+[2022-11-03 13:33:37,013] [DEBUG] [paperless.consumer] Detected mime type: image/png
+[2022-11-03 13:33:37,014] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:33:37,024] [DEBUG] [paperless.consumer] Parsing Rajesh Kumar - Aadhar.png...
+[2022-11-03 13:33:37,257] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-unuh04x3: 'dpi'
+[2022-11-03 13:33:37,258] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 113 based on image width 940
+[2022-11-03 13:33:37,259] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-unuh04x3'), 'output_file': '/tmp/paperless/paperless-hku6s19s/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-hku6s19s/sidecar.txt', 'image_dpi': 113}
+[2022-11-03 13:33:42,227] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:33:42,229] [DEBUG] [paperless.consumer] Generating thumbnail for Rajesh Kumar - Aadhar.png...
+[2022-11-03 13:33:42,237] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-hku6s19s/archive.pdf[0] /tmp/paperless/paperless-hku6s19s/convert.webp
+[2022-11-03 13:33:43,959] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:33:43,966] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:33:43,967] [DEBUG] [paperless.consumer] Creation date from parse_date: 1963-12-05 00:00:00+00:00
+[2022-11-03 13:33:47,952] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-unuh04x3
+[2022-11-03 13:33:47,970] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-hku6s19s
+[2022-11-03 13:33:47,971] [INFO] [paperless.consumer] Document 1963-12-05 Rajesh Kumar - Aadhar consumption finished
+[2022-11-03 13:34:51,830] [INFO] [paperless.consumer] Consuming Aadhar card - Promla Bhickta.pdf
+[2022-11-03 13:34:51,834] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:34:51,837] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:34:51,847] [DEBUG] [paperless.consumer] Parsing Aadhar card - Promla Bhickta.pdf...
+[2022-11-03 13:34:51,927] [WARNING] [paperless.parsing.tesseract] Error while getting text from PDF document with pdfminer.six
+Traceback (most recent call last):
+  File "/usr/src/paperless/src/paperless_tesseract/parsers.py", line 118, in extract_text
+    stripped = post_process_text(pdfminer_extract_text(pdf_file))
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/high_level.py", line 157, in extract_text
+    for page in PDFPage.get_pages(
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfpage.py", line 151, in get_pages
+    doc = PDFDocument(parser, password=password, caching=caching)
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfdocument.py", line 744, in __init__
+    self._initialize_password(password)
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfdocument.py", line 771, in _initialize_password
+    handler = factory(docid, param, password)
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfdocument.py", line 358, in __init__
+    self.init()
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfdocument.py", line 366, in init
+    self.init_key()
+  File "/usr/local/lib/python3.9/site-packages/pdfminer/pdfdocument.py", line 381, in init_key
+    raise PDFPasswordIncorrect
+pdfminer.pdfdocument.PDFPasswordIncorrect
+[2022-11-03 13:34:52,104] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-t32v9e4c'), 'output_file': '/tmp/paperless/paperless-k81llmc9/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-k81llmc9/sidecar.txt'}
+[2022-11-03 13:34:52,669] [WARNING] [paperless.parsing.tesseract] This file is encrypted, OCR is impossible. Using any text present in the original file.
+[2022-11-03 13:34:52,670] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-t32v9e4c, the content will be empty.
+[2022-11-03 13:34:52,671] [DEBUG] [paperless.consumer] Generating thumbnail for Aadhar card - Promla Bhickta.pdf...
+[2022-11-03 13:34:52,680] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-upload-t32v9e4c[0] /tmp/paperless/paperless-k81llmc9/convert.webp
+[2022-11-03 13:34:52,892] [WARNING] [paperless.parsing] Thumbnail generation with ImageMagick failed, falling back to ghostscript. Check your /etc/ImageMagick-x/policy.xml!
+[2022-11-03 13:34:53,041] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:34:53,049] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:34:53,051] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:34:51+00:00
+[2022-11-03 13:34:53,118] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-t32v9e4c
+[2022-11-03 13:34:53,130] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-k81llmc9
+[2022-11-03 13:34:53,130] [INFO] [paperless.consumer] Document 2022-11-03 Aadhar card - Promla Bhickta consumption finished
+[2022-11-03 13:34:56,094] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:35:21,057] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:35:42,183] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:36:18,080] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:36:20,316] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/originals/0000015.pdf.
+[2022-11-03 13:36:20,317] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/thumbnails/0000015.webp.
+[2022-11-03 13:36:57,943] [INFO] [paperless.consumer] Consuming Screenshot from 2022-11-03 09-50-49.png
+[2022-11-03 13:36:57,946] [DEBUG] [paperless.consumer] Detected mime type: image/png
+[2022-11-03 13:36:57,949] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:36:57,958] [DEBUG] [paperless.consumer] Parsing Screenshot from 2022-11-03 09-50-49.png...
+[2022-11-03 13:36:58,144] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-hif6pow9: 'dpi'
+[2022-11-03 13:36:58,145] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 219 based on image width 1812
+[2022-11-03 13:36:58,146] [INFO] [paperless.parsing.tesseract] Removing alpha layer from /tmp/paperless/paperless-upload-hif6pow9 for compatibility with img2pdf
+[2022-11-03 13:36:58,370] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-hif6pow9'), 'output_file': '/tmp/paperless/paperless-azedf1ax/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-azedf1ax/sidecar.txt', 'image_dpi': 219}
+[2022-11-03 13:37:06,780] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:37:06,782] [DEBUG] [paperless.consumer] Generating thumbnail for Screenshot from 2022-11-03 09-50-49.png...
+[2022-11-03 13:37:06,789] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-azedf1ax/archive.pdf[0] /tmp/paperless/paperless-azedf1ax/convert.webp
+[2022-11-03 13:37:08,609] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:37:08,616] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:37:08,617] [DEBUG] [paperless.consumer] Creation date from parse_date: 1972-02-08 00:00:00+00:00
+[2022-11-03 13:37:08,688] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-hif6pow9
+[2022-11-03 13:37:08,706] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-azedf1ax
+[2022-11-03 13:37:08,707] [INFO] [paperless.consumer] Document 1972-02-08 Screenshot from 2022-11-03 09-50-49 consumption finished
+[2022-11-03 13:37:17,635] [INFO] [paperless.consumer] Consuming SRISHTI_BHICKTA___Resume_Oct_2022.pdf
+[2022-11-03 13:37:17,641] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:37:17,643] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:37:17,652] [DEBUG] [paperless.consumer] Parsing SRISHTI_BHICKTA___Resume_Oct_2022.pdf...
+[2022-11-03 13:37:19,800] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-hi4ksoay
+[2022-11-03 13:37:19,960] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-hi4ksoay'), 'output_file': '/tmp/paperless/paperless-9rxqbeje/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-9rxqbeje/sidecar.txt'}
+[2022-11-03 13:37:23,253] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:37:23,563] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 13:37:25,984] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-9rxqbeje/archive.pdf
+[2022-11-03 13:37:25,985] [DEBUG] [paperless.consumer] Generating thumbnail for SRISHTI_BHICKTA___Resume_Oct_2022.pdf...
+[2022-11-03 13:37:25,995] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-9rxqbeje/archive.pdf[0] /tmp/paperless/paperless-9rxqbeje/convert.webp
+[2022-11-03 13:37:30,949] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:37:30,959] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:37:30,960] [DEBUG] [paperless.consumer] Creation date from parse_date: 2019-04-01 00:00:00+00:00
+[2022-11-03 13:37:31,042] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-hi4ksoay
+[2022-11-03 13:37:31,056] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-9rxqbeje
+[2022-11-03 13:37:31,057] [INFO] [paperless.consumer] Document 2019-04-01 SRISHTI_BHICKTA___Resume_Oct_2022 consumption finished
+[2022-11-03 13:37:45,361] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:39:37,863] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:40:34,346] [INFO] [paperless.consumer] Consuming Prajwal Bhickta Resume - 14052022.pdf
+[2022-11-03 13:40:34,352] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:40:34,354] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:40:34,359] [DEBUG] [paperless.consumer] Parsing Prajwal Bhickta Resume - 14052022.pdf...
+[2022-11-03 13:40:34,659] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-j_5kksl2
+[2022-11-03 13:40:34,762] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-j_5kksl2'), 'output_file': '/tmp/paperless/paperless-m7depfc3/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-m7depfc3/sidecar.txt'}
+[2022-11-03 13:40:36,707] [DEBUG] [paperless.parsing.tesseract] Incomplete sidecar file: discarding.
+[2022-11-03 13:40:36,894] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-m7depfc3/archive.pdf
+[2022-11-03 13:40:36,895] [DEBUG] [paperless.consumer] Generating thumbnail for Prajwal Bhickta Resume - 14052022.pdf...
+[2022-11-03 13:40:36,908] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-m7depfc3/archive.pdf[0] /tmp/paperless/paperless-m7depfc3/convert.webp
+[2022-11-03 13:40:40,267] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:40:40,279] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:40:40,280] [DEBUG] [paperless.consumer] Creation date from parse_date: 2022-01-03 00:00:00+00:00
+[2022-11-03 13:40:40,379] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-j_5kksl2
+[2022-11-03 13:40:40,395] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-m7depfc3
+[2022-11-03 13:40:40,396] [INFO] [paperless.consumer] Document 2022-01-03 Prajwal Bhickta Resume - 14052022 consumption finished
+[2022-11-03 13:41:16,579] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:41:50,687] [INFO] [paperless.consumer] Consuming signature clear.jpg
+[2022-11-03 13:41:50,689] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:41:50,692] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:41:50,700] [DEBUG] [paperless.consumer] Parsing signature clear.jpg...
+[2022-11-03 13:41:50,949] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-xdzqij7h: 'dpi'
+[2022-11-03 13:41:50,950] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 154 based on image width 1280
+[2022-11-03 13:41:50,951] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-xdzqij7h'), 'output_file': '/tmp/paperless/paperless-9tn8d5u8/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-9tn8d5u8/sidecar.txt', 'image_dpi': 154}
+[2022-11-03 13:41:56,435] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:41:56,435] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 13:41:56,437] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-xdzqij7h: 'dpi'
+[2022-11-03 13:41:56,437] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 154 based on image width 1280
+[2022-11-03 13:41:56,438] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-xdzqij7h'), 'output_file': '/tmp/paperless/paperless-9tn8d5u8/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-9tn8d5u8/sidecar-fallback.txt', 'image_dpi': 154}
+[2022-11-03 13:42:01,994] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:42:01,995] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-xdzqij7h, the content will be empty.
+[2022-11-03 13:42:01,995] [DEBUG] [paperless.consumer] Generating thumbnail for signature clear.jpg...
+[2022-11-03 13:42:02,015] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-9tn8d5u8/archive.pdf[0] /tmp/paperless/paperless-9tn8d5u8/convert.webp
+[2022-11-03 13:42:03,202] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:42:03,212] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:42:03,214] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:41:50+00:00
+[2022-11-03 13:42:03,274] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-xdzqij7h
+[2022-11-03 13:42:03,288] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-9tn8d5u8
+[2022-11-03 13:42:03,289] [INFO] [paperless.consumer] Document 2022-11-03 signature clear consumption finished
+[2022-11-03 13:42:05,249] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:42:30,911] [INFO] [paperless.consumer] Consuming amity i card.jpg
+[2022-11-03 13:42:30,919] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:42:30,921] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:42:30,927] [DEBUG] [paperless.consumer] Parsing amity i card.jpg...
+[2022-11-03 13:42:31,164] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 399 based on image width 3307
+[2022-11-03 13:42:31,165] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-qvu24pme: 400
+[2022-11-03 13:42:31,165] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-qvu24pme'), 'output_file': '/tmp/paperless/paperless-_b9mon77/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-_b9mon77/sidecar.txt', 'image_dpi': 400}
+[2022-11-03 13:43:10,450] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:43:10,452] [DEBUG] [paperless.consumer] Generating thumbnail for amity i card.jpg...
+[2022-11-03 13:43:10,474] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-_b9mon77/archive.pdf[0] /tmp/paperless/paperless-_b9mon77/convert.webp
+[2022-11-03 13:43:12,874] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:43:12,882] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:43:12,883] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:42:30+00:00
+[2022-11-03 13:43:12,947] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-qvu24pme
+[2022-11-03 13:43:12,959] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-_b9mon77
+[2022-11-03 13:43:12,960] [INFO] [paperless.consumer] Document 2022-11-03 amity i card consumption finished
+[2022-11-03 13:43:15,161] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:43:17,566] [INFO] [paperless.consumer] Consuming photo111.jpg
+[2022-11-03 13:43:17,568] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:43:17,569] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:43:17,576] [DEBUG] [paperless.consumer] Parsing photo111.jpg...
+[2022-11-03 13:43:17,716] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 40 based on image width 334
+[2022-11-03 13:43:17,717] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-m3bw13uk: 72
+[2022-11-03 13:43:17,717] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-m3bw13uk'), 'output_file': '/tmp/paperless/paperless-x_u9171r/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-x_u9171r/sidecar.txt', 'image_dpi': 72}
+[2022-11-03 13:43:20,583] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:43:20,584] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 13:43:20,587] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 40 based on image width 334
+[2022-11-03 13:43:20,587] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-m3bw13uk: 72
+[2022-11-03 13:43:20,588] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-m3bw13uk'), 'output_file': '/tmp/paperless/paperless-x_u9171r/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-x_u9171r/sidecar-fallback.txt', 'image_dpi': 72}
+[2022-11-03 13:43:23,288] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:43:23,289] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-m3bw13uk, the content will be empty.
+[2022-11-03 13:43:23,289] [DEBUG] [paperless.consumer] Generating thumbnail for photo111.jpg...
+[2022-11-03 13:43:23,297] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-x_u9171r/archive.pdf[0] /tmp/paperless/paperless-x_u9171r/convert.webp
+[2022-11-03 13:43:23,984] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:43:23,991] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:43:23,993] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:42:55+00:00
+[2022-11-03 13:43:24,036] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-m3bw13uk
+[2022-11-03 13:43:24,047] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-x_u9171r
+[2022-11-03 13:43:24,048] [INFO] [paperless.consumer] Document 2022-11-03 photo111 consumption finished
+[2022-11-03 13:43:49,092] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:44:27,628] [INFO] [paperless.consumer] Consuming 10 marksheet.jpg
+[2022-11-03 13:44:27,633] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:44:27,635] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:44:27,641] [DEBUG] [paperless.consumer] Parsing 10 marksheet.jpg...
+[2022-11-03 13:44:27,794] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 13:44:27,794] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-wxnz3sea: 96
+[2022-11-03 13:44:27,795] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-wxnz3sea'), 'output_file': '/tmp/paperless/paperless-z26ut7qs/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-z26ut7qs/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 13:44:53,609] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:44:53,611] [DEBUG] [paperless.consumer] Generating thumbnail for 10 marksheet.jpg...
+[2022-11-03 13:44:53,619] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-z26ut7qs/archive.pdf[0] /tmp/paperless/paperless-z26ut7qs/convert.webp
+[2022-11-03 13:45:03,641] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:45:03,648] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:45:03,648] [DEBUG] [paperless.consumer] Creation date from parse_date: 2010-05-28 00:00:00+00:00
+[2022-11-03 13:45:03,731] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-wxnz3sea
+[2022-11-03 13:45:03,775] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-z26ut7qs
+[2022-11-03 13:45:03,776] [INFO] [paperless.consumer] Document 2010-05-28 10 marksheet consumption finished
+[2022-11-03 13:45:06,306] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:45:08,218] [INFO] [paperless.consumer] Consuming 10 certi.jpg
+[2022-11-03 13:45:08,225] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:45:08,227] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:45:08,233] [DEBUG] [paperless.consumer] Parsing 10 certi.jpg...
+[2022-11-03 13:45:08,377] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 13:45:08,378] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-7yzdalvk: 96
+[2022-11-03 13:45:08,378] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-7yzdalvk'), 'output_file': '/tmp/paperless/paperless-o5tdfc99/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-o5tdfc99/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 13:45:43,501] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:45:43,505] [DEBUG] [paperless.consumer] Generating thumbnail for 10 certi.jpg...
+[2022-11-03 13:45:43,517] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-o5tdfc99/archive.pdf[0] /tmp/paperless/paperless-o5tdfc99/convert.webp
+[2022-11-03 13:45:55,142] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:45:55,171] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:45:55,178] [DEBUG] [paperless.consumer] Creation date from parse_date: 2010-05-28 00:00:00+00:00
+[2022-11-03 13:45:55,251] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-7yzdalvk
+[2022-11-03 13:45:55,260] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-o5tdfc99
+[2022-11-03 13:45:55,262] [INFO] [paperless.consumer] Document 2010-05-28 10 certi consumption finished
+[2022-11-03 13:46:02,755] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:47:41,207] [INFO] [paperless.consumer] Consuming SIGNATURES.jpg
+[2022-11-03 13:47:41,209] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:47:41,210] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:47:41,217] [DEBUG] [paperless.consumer] Parsing SIGNATURES.jpg...
+[2022-11-03 13:47:41,387] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 16 based on image width 140
+[2022-11-03 13:47:41,387] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-44p0srbn: 300
+[2022-11-03 13:47:41,388] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-44p0srbn'), 'output_file': '/tmp/paperless/paperless-2wgm3psm/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-2wgm3psm/sidecar.txt', 'image_dpi': 300}
+[2022-11-03 13:47:43,682] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:47:43,683] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 13:47:43,685] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 16 based on image width 140
+[2022-11-03 13:47:43,686] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-44p0srbn: 300
+[2022-11-03 13:47:43,686] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-44p0srbn'), 'output_file': '/tmp/paperless/paperless-2wgm3psm/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-2wgm3psm/sidecar-fallback.txt', 'image_dpi': 300}
+[2022-11-03 13:47:45,376] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:47:45,377] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-44p0srbn, the content will be empty.
+[2022-11-03 13:47:45,378] [DEBUG] [paperless.consumer] Generating thumbnail for SIGNATURES.jpg...
+[2022-11-03 13:47:45,399] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-2wgm3psm/archive.pdf[0] /tmp/paperless/paperless-2wgm3psm/convert.webp
+[2022-11-03 13:47:45,700] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:47:45,708] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:47:45,710] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:47:40.776645+00:00
+[2022-11-03 13:47:48,908] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-44p0srbn
+[2022-11-03 13:47:48,920] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-2wgm3psm
+[2022-11-03 13:47:48,921] [INFO] [paperless.consumer] Document 2022-11-03 SIGNATURES consumption finished
+[2022-11-03 13:47:54,028] [INFO] [paperless.consumer] Consuming PIcture 14 kb srishti.jpeg
+[2022-11-03 13:47:54,031] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:47:54,033] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:47:54,045] [DEBUG] [paperless.consumer] Parsing PIcture 14 kb srishti.jpeg...
+[2022-11-03 13:47:54,256] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-do3whac_: 'dpi'
+[2022-11-03 13:47:54,258] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 64 based on image width 536
+[2022-11-03 13:47:54,258] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-do3whac_'), 'output_file': '/tmp/paperless/paperless-bzmtnhbz/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-bzmtnhbz/sidecar.txt', 'image_dpi': 64}
+[2022-11-03 13:47:57,378] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:47:57,379] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 13:47:57,381] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-do3whac_: 'dpi'
+[2022-11-03 13:47:57,382] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 64 based on image width 536
+[2022-11-03 13:47:57,382] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-do3whac_'), 'output_file': '/tmp/paperless/paperless-bzmtnhbz/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-bzmtnhbz/sidecar-fallback.txt', 'image_dpi': 64}
+[2022-11-03 13:48:00,518] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:48:01,082] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:48:01,083] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-do3whac_, the content will be empty.
+[2022-11-03 13:48:01,083] [DEBUG] [paperless.consumer] Generating thumbnail for PIcture 14 kb srishti.jpeg...
+[2022-11-03 13:48:01,094] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-bzmtnhbz/archive.pdf[0] /tmp/paperless/paperless-bzmtnhbz/convert.webp
+[2022-11-03 13:48:02,530] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:48:02,541] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:48:02,543] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:47:43+00:00
+[2022-11-03 13:48:02,602] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-do3whac_
+[2022-11-03 13:48:02,620] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-bzmtnhbz
+[2022-11-03 13:48:02,621] [INFO] [paperless.consumer] Document 2022-11-03 PIcture 14 kb srishti consumption finished
+[2022-11-03 13:48:11,890] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:49:53,795] [INFO] [paperless.consumer] Consuming Screenshot from 2022-11-03 19-34-44.png
+[2022-11-03 13:49:53,798] [DEBUG] [paperless.consumer] Detected mime type: image/png
+[2022-11-03 13:49:53,800] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:49:53,805] [DEBUG] [paperless.consumer] Parsing Screenshot from 2022-11-03 19-34-44.png...
+[2022-11-03 13:49:53,952] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-o1jx6dfn: 'dpi'
+[2022-11-03 13:49:53,953] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 87 based on image width 724
+[2022-11-03 13:49:53,953] [INFO] [paperless.parsing.tesseract] Removing alpha layer from /tmp/paperless/paperless-upload-o1jx6dfn for compatibility with img2pdf
+[2022-11-03 13:49:54,297] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-o1jx6dfn'), 'output_file': '/tmp/paperless/paperless-_wctqkxs/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-_wctqkxs/sidecar.txt', 'image_dpi': 87}
+[2022-11-03 13:49:59,669] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:49:59,670] [WARNING] [paperless.parsing.tesseract] Encountered an error while running OCR: No text was found in the original document. Attempting force OCR to get the text.
+[2022-11-03 13:49:59,671] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-o1jx6dfn: 'dpi'
+[2022-11-03 13:49:59,672] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 87 based on image width 724
+[2022-11-03 13:49:59,673] [DEBUG] [paperless.parsing.tesseract] Fallback: Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-o1jx6dfn'), 'output_file': '/tmp/paperless/paperless-_wctqkxs/archive-fallback.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'force_ocr': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-_wctqkxs/sidecar-fallback.txt', 'image_dpi': 87}
+[2022-11-03 13:50:05,655] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:50:05,656] [WARNING] [paperless.parsing.tesseract] No text was found in /tmp/paperless/paperless-upload-o1jx6dfn, the content will be empty.
+[2022-11-03 13:50:05,656] [DEBUG] [paperless.consumer] Generating thumbnail for Screenshot from 2022-11-03 19-34-44.png...
+[2022-11-03 13:50:05,667] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-_wctqkxs/archive.pdf[0] /tmp/paperless/paperless-_wctqkxs/convert.webp
+[2022-11-03 13:50:07,265] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:50:07,272] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:50:07,274] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:49:54.292221+00:00
+[2022-11-03 13:50:07,320] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-o1jx6dfn
+[2022-11-03 13:50:07,335] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-_wctqkxs
+[2022-11-03 13:50:07,336] [INFO] [paperless.consumer] Document 2022-11-03 Screenshot from 2022-11-03 19-34-44 consumption finished
+[2022-11-03 13:50:21,148] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:50:54,231] [INFO] [paperless.consumer] Consuming mark.jpg
+[2022-11-03 13:50:54,236] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:50:54,237] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:50:54,243] [DEBUG] [paperless.consumer] Parsing mark.jpg...
+[2022-11-03 13:50:54,402] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 394 based on image width 3264
+[2022-11-03 13:50:54,403] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-llt_5hlc: 72
+[2022-11-03 13:50:54,403] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-llt_5hlc'), 'output_file': '/tmp/paperless/paperless-4pakx2ri/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-4pakx2ri/sidecar.txt', 'image_dpi': 72}
+[2022-11-03 13:52:00,461] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:52:00,462] [DEBUG] [paperless.consumer] Generating thumbnail for mark.jpg...
+[2022-11-03 13:52:00,479] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-4pakx2ri/archive.pdf[0] /tmp/paperless/paperless-4pakx2ri/convert.webp
+[2022-11-03 13:52:17,471] [WARNING] [paperless.parsing] Thumbnail generation with ImageMagick failed, falling back to ghostscript. Check your /etc/ImageMagick-x/policy.xml!
+[2022-11-03 13:52:22,628] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-4pakx2ri/gs_out.png /tmp/paperless/paperless-4pakx2ri/convert_gs.webp
+[2022-11-03 13:52:27,554] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:52:27,561] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:52:27,562] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:50:53+00:00
+[2022-11-03 13:52:27,628] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-llt_5hlc
+[2022-11-03 13:52:27,641] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-4pakx2ri
+[2022-11-03 13:52:27,644] [INFO] [paperless.consumer] Document 2022-11-03 mark consumption finished
+[2022-11-03 13:52:30,563] [INFO] [paperless.consumer] Consuming b tech final didi.pdf
+[2022-11-03 13:52:30,565] [DEBUG] [paperless.consumer] Detected mime type: application/pdf
+[2022-11-03 13:52:30,566] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:52:30,573] [DEBUG] [paperless.consumer] Parsing b tech final didi.pdf...
+[2022-11-03 13:52:30,614] [DEBUG] [paperless.parsing.tesseract] Extracted text from PDF file /tmp/paperless/paperless-upload-cr9lz774
+[2022-11-03 13:52:30,716] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-cr9lz774'), 'output_file': '/tmp/paperless/paperless-9dq86vf7/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-9dq86vf7/sidecar.txt'}
+[2022-11-03 13:52:48,160] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:52:48,162] [DEBUG] [paperless.consumer] Generating thumbnail for b tech final didi.pdf...
+[2022-11-03 13:52:48,170] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-9dq86vf7/archive.pdf[0] /tmp/paperless/paperless-9dq86vf7/convert.webp
+[2022-11-03 13:52:53,341] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:52:55,651] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/originals/0000027.jpg.
+[2022-11-03 13:52:55,652] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/archive/0000027.pdf.
+[2022-11-03 13:52:55,653] [DEBUG] [paperless.handlers] Deleted file /usr/src/paperless/media/documents/thumbnails/0000027.webp.
+[2022-11-03 13:52:56,139] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:52:56,147] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:52:56,148] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:52:25+00:00
+[2022-11-03 13:52:56,227] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-cr9lz774
+[2022-11-03 13:52:56,240] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-9dq86vf7
+[2022-11-03 13:52:56,241] [INFO] [paperless.consumer] Document 2022-11-03 b tech final didi consumption finished
+[2022-11-03 13:53:00,809] [INFO] [paperless.consumer] Consuming final marksheet.jpg
+[2022-11-03 13:53:00,813] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:53:00,814] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:53:00,821] [DEBUG] [paperless.consumer] Parsing final marksheet.jpg...
+[2022-11-03 13:53:00,964] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 124 based on image width 1030
+[2022-11-03 13:53:00,965] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-1xy9o518: 120
+[2022-11-03 13:53:00,965] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-1xy9o518'), 'output_file': '/tmp/paperless/paperless-qw1md8tp/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-qw1md8tp/sidecar.txt', 'image_dpi': 120}
+[2022-11-03 13:53:10,935] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:53:17,465] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:53:17,467] [DEBUG] [paperless.consumer] Generating thumbnail for final marksheet.jpg...
+[2022-11-03 13:53:17,476] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-qw1md8tp/archive.pdf[0] /tmp/paperless/paperless-qw1md8tp/convert.webp
+[2022-11-03 13:53:23,715] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:53:23,721] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:53:23,722] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:52:25+00:00
+[2022-11-03 13:53:23,847] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-1xy9o518
+[2022-11-03 13:53:23,858] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-qw1md8tp
+[2022-11-03 13:53:23,859] [INFO] [paperless.consumer] Document 2022-11-03 final marksheet consumption finished
+[2022-11-03 13:53:25,959] [INFO] [paperless.consumer] Consuming mark sheet.jpg
+[2022-11-03 13:53:25,965] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:53:25,967] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:53:25,976] [DEBUG] [paperless.consumer] Parsing mark sheet.jpg...
+[2022-11-03 13:53:26,118] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 296 based on image width 2448
+[2022-11-03 13:53:26,120] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-1922zrmd: 72
+[2022-11-03 13:53:26,121] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-1922zrmd'), 'output_file': '/tmp/paperless/paperless-zgmx6400/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-zgmx6400/sidecar.txt', 'image_dpi': 72}
+[2022-11-03 13:53:54,496] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:54:30,252] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:54:30,254] [DEBUG] [paperless.consumer] Generating thumbnail for mark sheet.jpg...
+[2022-11-03 13:54:30,278] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-zgmx6400/archive.pdf[0] /tmp/paperless/paperless-zgmx6400/convert.webp
+[2022-11-03 13:54:46,657] [WARNING] [paperless.parsing] Thumbnail generation with ImageMagick failed, falling back to ghostscript. Check your /etc/ImageMagick-x/policy.xml!
+[2022-11-03 13:54:53,270] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-zgmx6400/gs_out.png /tmp/paperless/paperless-zgmx6400/convert_gs.webp
+[2022-11-03 13:54:59,515] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:54:59,525] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:54:59,526] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:52:25+00:00
+[2022-11-03 13:54:59,652] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-1922zrmd
+[2022-11-03 13:54:59,664] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-zgmx6400
+[2022-11-03 13:54:59,671] [INFO] [paperless.consumer] Document 2022-11-03 mark sheet consumption finished
+[2022-11-03 13:55:01,544] [INFO] [paperless.consumer] Consuming mark.jpg
+[2022-11-03 13:55:01,549] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:55:01,551] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:55:01,558] [DEBUG] [paperless.consumer] Parsing mark.jpg...
+[2022-11-03 13:55:01,727] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 296 based on image width 2448
+[2022-11-03 13:55:01,729] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-h0f4gnkj: 72
+[2022-11-03 13:55:01,729] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-h0f4gnkj'), 'output_file': '/tmp/paperless/paperless-em6pc_nz/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-em6pc_nz/sidecar.txt', 'image_dpi': 72}
+[2022-11-03 13:56:06,457] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:56:26,575] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 13:56:26,577] [DEBUG] [paperless.consumer] Generating thumbnail for mark.jpg...
+[2022-11-03 13:56:26,598] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-em6pc_nz/archive.pdf[0] /tmp/paperless/paperless-em6pc_nz/convert.webp
+[2022-11-03 13:56:43,699] [WARNING] [paperless.parsing] Thumbnail generation with ImageMagick failed, falling back to ghostscript. Check your /etc/ImageMagick-x/policy.xml!
+[2022-11-03 13:56:49,322] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-em6pc_nz/gs_out.png /tmp/paperless/paperless-em6pc_nz/convert_gs.webp
+[2022-11-03 13:56:54,456] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:56:54,464] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 13:56:54,467] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 13:52:58+00:00
+[2022-11-03 13:56:54,556] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-h0f4gnkj
+[2022-11-03 13:56:54,570] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-em6pc_nz
+[2022-11-03 13:56:54,573] [INFO] [paperless.consumer] Document 2022-11-03 mark consumption finished
+[2022-11-03 13:58:01,387] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 13:59:13,820] [INFO] [paperless.consumer] Consuming SRISHTI MCD.jpg
+[2022-11-03 13:59:13,825] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 13:59:13,826] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 13:59:13,835] [DEBUG] [paperless.consumer] Parsing SRISHTI MCD.jpg...
+[2022-11-03 13:59:13,986] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 308 based on image width 2550
+[2022-11-03 13:59:13,986] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-wwntf7er: 300
+[2022-11-03 13:59:13,987] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-wwntf7er'), 'output_file': '/tmp/paperless/paperless-_sf_zaog/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-_sf_zaog/sidecar.txt', 'image_dpi': 300}
+[2022-11-03 14:00:37,357] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:00:37,365] [DEBUG] [paperless.consumer] Generating thumbnail for SRISHTI MCD.jpg...
+[2022-11-03 14:00:37,397] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-_sf_zaog/archive.pdf[0] /tmp/paperless/paperless-_sf_zaog/convert.webp
+[2022-11-03 14:00:47,631] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:00:47,640] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:00:47,641] [DEBUG] [paperless.consumer] Creation date from parse_date: 1994-09-07 00:00:00+00:00
+[2022-11-03 14:00:52,513] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-wwntf7er
+[2022-11-03 14:00:52,530] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-_sf_zaog
+[2022-11-03 14:00:52,533] [INFO] [paperless.consumer] Document 1994-09-07 SRISHTI MCD consumption finished
+[2022-11-03 14:01:09,616] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:06:00,743] [INFO] [paperless.consumer] Consuming 12 certi.jpg
+[2022-11-03 14:06:00,748] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:06:00,750] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:06:00,755] [DEBUG] [paperless.consumer] Parsing 12 certi.jpg...
+[2022-11-03 14:06:00,912] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:06:00,913] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-bzzum0ov: 96
+[2022-11-03 14:06:00,913] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-bzzum0ov'), 'output_file': '/tmp/paperless/paperless-ly2mukeu/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-ly2mukeu/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:06:30,071] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:06:30,074] [DEBUG] [paperless.consumer] Generating thumbnail for 12 certi.jpg...
+[2022-11-03 14:06:30,083] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-ly2mukeu/archive.pdf[0] /tmp/paperless/paperless-ly2mukeu/convert.webp
+[2022-11-03 14:06:43,046] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:06:43,061] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:06:43,062] [DEBUG] [paperless.consumer] Creation date from parse_date: 2012-05-28 00:00:00+00:00
+[2022-11-03 14:06:43,181] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-bzzum0ov
+[2022-11-03 14:06:43,191] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-ly2mukeu
+[2022-11-03 14:06:43,192] [INFO] [paperless.consumer] Document 2012-05-28 12 certi consumption finished
+[2022-11-03 14:06:45,459] [INFO] [paperless.consumer] Consuming class 12 didi.jpg
+[2022-11-03 14:06:45,464] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:06:45,465] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:06:45,472] [DEBUG] [paperless.consumer] Parsing class 12 didi.jpg...
+[2022-11-03 14:06:45,638] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:06:45,639] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-w4bv1kn5: 96
+[2022-11-03 14:06:45,639] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-w4bv1kn5'), 'output_file': '/tmp/paperless/paperless-tqk7vvr2/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-tqk7vvr2/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:07:15,052] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:07:19,006] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:07:19,007] [DEBUG] [paperless.consumer] Generating thumbnail for class 12 didi.jpg...
+[2022-11-03 14:07:19,019] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-tqk7vvr2/archive.pdf[0] /tmp/paperless/paperless-tqk7vvr2/convert.webp
+[2022-11-03 14:07:29,369] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:07:29,376] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:07:29,377] [DEBUG] [paperless.consumer] Creation date from st_mtime: 2022-11-03 14:06:07+00:00
+[2022-11-03 14:07:29,474] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-w4bv1kn5
+[2022-11-03 14:07:29,552] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-tqk7vvr2
+[2022-11-03 14:07:29,553] [INFO] [paperless.consumer] Document 2022-11-03 class 12 didi consumption finished
+[2022-11-03 14:07:35,188] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:08:06,002] [INFO] [paperless.consumer] Consuming 3 sem part 2.jpg
+[2022-11-03 14:08:06,007] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:08:06,009] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:08:06,016] [DEBUG] [paperless.consumer] Parsing 3 sem part 2.jpg...
+[2022-11-03 14:08:06,162] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:08:06,162] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-z2uf3nhs: 96
+[2022-11-03 14:08:06,163] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-z2uf3nhs'), 'output_file': '/tmp/paperless/paperless-p_5d5kdz/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-p_5d5kdz/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:08:38,151] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:08:38,153] [DEBUG] [paperless.consumer] Generating thumbnail for 3 sem part 2.jpg...
+[2022-11-03 14:08:38,168] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-p_5d5kdz/archive.pdf[0] /tmp/paperless/paperless-p_5d5kdz/convert.webp
+[2022-11-03 14:08:48,342] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:08:48,349] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:08:48,350] [DEBUG] [paperless.consumer] Creation date from parse_date: 2015-03-18 00:00:00+00:00
+[2022-11-03 14:08:48,416] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-z2uf3nhs
+[2022-11-03 14:08:48,425] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-p_5d5kdz
+[2022-11-03 14:08:48,426] [INFO] [paperless.consumer] Document 2015-03-18 3 sem part 2 consumption finished
+[2022-11-03 14:08:51,124] [INFO] [paperless.consumer] Consuming 7 sem.jpg
+[2022-11-03 14:08:51,126] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:08:51,127] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:08:51,133] [DEBUG] [paperless.consumer] Parsing 7 sem.jpg...
+[2022-11-03 14:08:51,274] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 212 based on image width 1760
+[2022-11-03 14:08:51,275] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-u0zyw_a2: 96
+[2022-11-03 14:08:51,275] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-u0zyw_a2'), 'output_file': '/tmp/paperless/paperless-w99s3lpo/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-w99s3lpo/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:09:06,254] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:09:06,256] [DEBUG] [paperless.consumer] Generating thumbnail for 7 sem.jpg...
+[2022-11-03 14:09:06,266] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-w99s3lpo/archive.pdf[0] /tmp/paperless/paperless-w99s3lpo/convert.webp
+[2022-11-03 14:09:10,907] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:09:10,913] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:09:10,914] [DEBUG] [paperless.consumer] Creation date from parse_date: 2015-07-25 00:00:00+00:00
+[2022-11-03 14:09:10,967] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-u0zyw_a2
+[2022-11-03 14:09:10,978] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-w99s3lpo
+[2022-11-03 14:09:10,979] [INFO] [paperless.consumer] Document 2015-07-25 7 sem consumption finished
+[2022-11-03 14:09:11,383] [INFO] [paperless.consumer] Consuming 5 sem.jpg
+[2022-11-03 14:09:11,387] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:09:11,389] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:09:11,398] [DEBUG] [paperless.consumer] Parsing 5 sem.jpg...
+[2022-11-03 14:09:11,568] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:09:11,569] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-vgeuo_f3: 96
+[2022-11-03 14:09:11,569] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-vgeuo_f3'), 'output_file': '/tmp/paperless/paperless-9zt3sdn0/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-9zt3sdn0/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:09:46,749] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:09:46,751] [DEBUG] [paperless.consumer] Generating thumbnail for 5 sem.jpg...
+[2022-11-03 14:09:46,762] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-9zt3sdn0/archive.pdf[0] /tmp/paperless/paperless-9zt3sdn0/convert.webp
+[2022-11-03 14:09:58,593] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:09:58,604] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:09:58,604] [DEBUG] [paperless.consumer] Creation date from parse_date: 2015-03-18 00:00:00+00:00
+[2022-11-03 14:09:58,677] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-vgeuo_f3
+[2022-11-03 14:09:58,715] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-9zt3sdn0
+[2022-11-03 14:09:58,716] [INFO] [paperless.consumer] Document 2015-03-18 5 sem consumption finished
+[2022-11-03 14:10:01,666] [INFO] [paperless.consumer] Consuming 4 sem.jpg
+[2022-11-03 14:10:01,671] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:10:01,673] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:10:01,684] [DEBUG] [paperless.consumer] Parsing 4 sem.jpg...
+[2022-11-03 14:10:01,894] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:10:01,897] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-oqdie6fq: 96
+[2022-11-03 14:10:01,899] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-oqdie6fq'), 'output_file': '/tmp/paperless/paperless-kgmb04vt/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-kgmb04vt/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:10:36,429] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:10:36,433] [DEBUG] [paperless.consumer] Generating thumbnail for 4 sem.jpg...
+[2022-11-03 14:10:36,446] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-kgmb04vt/archive.pdf[0] /tmp/paperless/paperless-kgmb04vt/convert.webp
+[2022-11-03 14:10:53,119] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:10:53,125] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:10:53,126] [DEBUG] [paperless.consumer] Creation date from parse_date: 2014-07-18 00:00:00+00:00
+[2022-11-03 14:10:53,222] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-oqdie6fq
+[2022-11-03 14:10:53,267] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-kgmb04vt
+[2022-11-03 14:10:53,268] [INFO] [paperless.consumer] Document 2014-07-18 4 sem consumption finished
+[2022-11-03 14:10:56,992] [INFO] [paperless.consumer] Consuming sem 2.jpg
+[2022-11-03 14:10:57,002] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:10:57,004] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:10:57,013] [DEBUG] [paperless.consumer] Parsing sem 2.jpg...
+[2022-11-03 14:10:57,277] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-1zr0zxhd: 'dpi'
+[2022-11-03 14:10:57,279] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:10:57,283] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-1zr0zxhd'), 'output_file': '/tmp/paperless/paperless-lah0z8aa/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-lah0z8aa/sidecar.txt', 'image_dpi': 215}
+[2022-11-03 14:11:34,970] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:11:34,973] [DEBUG] [paperless.consumer] Generating thumbnail for sem 2.jpg...
+[2022-11-03 14:11:34,990] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-lah0z8aa/archive.pdf[0] /tmp/paperless/paperless-lah0z8aa/convert.webp
+[2022-11-03 14:11:40,217] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:11:40,224] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:11:40,224] [DEBUG] [paperless.consumer] Creation date from parse_date: 2018-11-11 03:00:00+00:00
+[2022-11-03 14:11:44,586] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-1zr0zxhd
+[2022-11-03 14:11:44,599] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-lah0z8aa
+[2022-11-03 14:11:44,601] [INFO] [paperless.consumer] Document 2018-11-11 sem 2 consumption finished
+[2022-11-03 14:11:47,309] [INFO] [paperless.consumer] Consuming first sem.jpg
+[2022-11-03 14:11:47,317] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:11:47,320] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:11:47,330] [DEBUG] [paperless.consumer] Parsing first sem.jpg...
+[2022-11-03 14:11:47,570] [WARNING] [paperless.parsing.tesseract] Error while getting DPI from image /tmp/paperless/paperless-upload-ouywt4rv: 'dpi'
+[2022-11-03 14:11:47,571] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:11:47,572] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-ouywt4rv'), 'output_file': '/tmp/paperless/paperless-mpc00map/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-mpc00map/sidecar.txt', 'image_dpi': 215}
+[2022-11-03 14:12:30,052] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:12:30,054] [DEBUG] [paperless.consumer] Generating thumbnail for first sem.jpg...
+[2022-11-03 14:12:30,067] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-mpc00map/archive.pdf[0] /tmp/paperless/paperless-mpc00map/convert.webp
+[2022-11-03 14:12:35,501] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:12:35,508] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:12:35,509] [DEBUG] [paperless.consumer] Creation date from parse_date: 2015-11-01 04:00:00+00:00
+[2022-11-03 14:12:35,615] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-ouywt4rv
+[2022-11-03 14:12:35,632] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-mpc00map
+[2022-11-03 14:12:35,634] [INFO] [paperless.consumer] Document 2015-11-01 first sem consumption finished
+[2022-11-03 14:12:37,599] [INFO] [paperless.consumer] Consuming third sem part 1.jpg
+[2022-11-03 14:12:37,606] [DEBUG] [paperless.consumer] Detected mime type: image/jpeg
+[2022-11-03 14:12:37,608] [DEBUG] [paperless.consumer] Parser: RasterisedDocumentParser
+[2022-11-03 14:12:37,622] [DEBUG] [paperless.consumer] Parsing third sem part 1.jpg...
+[2022-11-03 14:12:37,892] [DEBUG] [paperless.parsing.tesseract] Estimated DPI 215 based on image width 1785
+[2022-11-03 14:12:37,893] [DEBUG] [paperless.parsing.tesseract] Detected DPI for image /tmp/paperless/paperless-upload-g47nnzgb: 96
+[2022-11-03 14:12:37,894] [DEBUG] [paperless.parsing.tesseract] Calling OCRmyPDF with args: {'input_file': PosixPath('/tmp/paperless/paperless-upload-g47nnzgb'), 'output_file': '/tmp/paperless/paperless-40mk0tw_/archive.pdf', 'use_threads': True, 'jobs': 4, 'language': 'eng', 'output_type': 'pdfa', 'progress_bar': False, 'skip_text': True, 'clean': True, 'deskew': True, 'rotate_pages': True, 'rotate_pages_threshold': 12.0, 'sidecar': '/tmp/paperless/paperless-40mk0tw_/sidecar.txt', 'image_dpi': 96}
+[2022-11-03 14:13:09,154] [DEBUG] [paperless.parsing.tesseract] Using text from sidecar file
+[2022-11-03 14:13:09,156] [DEBUG] [paperless.consumer] Generating thumbnail for third sem part 1.jpg...
+[2022-11-03 14:13:09,171] [DEBUG] [paperless.parsing] Execute: convert -density 300 -scale 500x5000> -alpha remove -strip -auto-orient /tmp/paperless/paperless-40mk0tw_/archive.pdf[0] /tmp/paperless/paperless-40mk0tw_/convert.webp
+[2022-11-03 14:13:21,007] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 14:13:21,021] [DEBUG] [paperless.consumer] Saving record to database
+[2022-11-03 14:13:21,021] [DEBUG] [paperless.consumer] Creation date from parse_date: 2014-03-07 00:00:00+00:00
+[2022-11-03 14:13:21,137] [DEBUG] [paperless.consumer] Deleting file /tmp/paperless/paperless-upload-g47nnzgb
+[2022-11-03 14:13:21,150] [DEBUG] [paperless.parsing.tesseract] Deleting directory /tmp/paperless/paperless-40mk0tw_
+[2022-11-03 14:13:21,151] [INFO] [paperless.consumer] Document 2014-03-07 third sem part 1 consumption finished
+[2022-11-03 14:15:46,543] [DEBUG] [paperless.classifier] Document classification model does not exist (yet), not performing automatic matching.
+[2022-11-03 17:34:51,126] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-03 17:34:51,145] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 00:01:37,756] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 00:26:47,884] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 00:27:41,283] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 00:27:41,297] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 00:29:29,306] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 01:51:35,505] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 01:51:35,510] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 03:23:01,280] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 03:25:22,304] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 03:25:22,326] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 04:56:21,817] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 05:31:05,268] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 05:31:05,284] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 06:04:49,324] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 07:45:24,238] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 07:45:24,240] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 09:33:10,121] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 11:13:00,250] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 11:13:00,266] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-04 11:14:26,409] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-04 20:31:09,968] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-04 20:31:10,005] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-09-14 21:57:08,281] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 05:19:07,690] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 05:19:07,704] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-09-14 21:55:57,195] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 05:22:55,372] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 05:22:55,373] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-09-14 21:55:16,205] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 05:26:34,548] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 05:26:34,562] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-09-14 21:55:11,197] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 11:51:58,850] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 16:11:03,045] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 16:11:03,118] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-05 16:16:48,731] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 19:26:11,847] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 20:02:41,724] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 20:12:49,069] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 20:12:49,084] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-05 20:14:36,190] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-05 20:59:56,114] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-05 20:59:56,159] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-06 03:35:01,285] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-06 04:59:34,125] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-06 04:59:34,129] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-06 05:01:07,312] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-06 10:10:41,492] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-07 03:29:19,098] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
+[2022-11-07 05:09:49,726] [INFO] [paperless.management.consumer] Received SIGINT, stopping inotify
+[2022-11-07 05:09:49,770] [DEBUG] [paperless.management.consumer] Consumer exiting.
+[2022-11-07 05:11:14,705] [INFO] [paperless.management.consumer] Using inotify to watch directory for changes: /usr/src/paperless/consume
